@@ -11,7 +11,7 @@ hugo --gc --minify
 cd public
 
 # Add changes to git.
-git add .
+git add -A
 
 # Commit changes.
 msg="網站更新 $(date +'%Y-%m-%d %H:%M:%S')"
