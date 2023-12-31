@@ -23,3 +23,5 @@ git commit -m "$msg"
 git pull --rebase origin main
 # Push source and build repos.
 git push -f origin main
+git push -f origin main
+
