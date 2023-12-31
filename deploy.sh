@@ -1,13 +1,25 @@
 #!/bin/bash
 
-rm -r public
 
-# 生成網頁
-hugo --gc --minify
+printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
-# (選擇性) 推送網站原始碼至Github
 rm -r public resources .hugo_build.lock
-git add -A
-git commit -m "網站更新"
-git push 
 
+# Build the project.
+hugo --gc --minify
+# Go To Public folder
+cd public
+
+# Add changes to git.
+git add .
+
+# Commit changes.
+msg="網站更新 $(date +'%Y-%m-%d %H:%M:%S')"
+if [ -n "$*" ]; then
+    msg="$*"
+fi
+git commit -m "$msg"
+
+git pull --rebase origin main
+# Push source and build repos.
+git push -f origin main
