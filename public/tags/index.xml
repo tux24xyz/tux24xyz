@@ -1,2 +1,11 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tux24's website</title><link>https://tux24.xyz/tags/</link><description>Recent content in Tags on Tux24's website</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><atom:link href="https://tux24.xyz/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Helloworld</title><link>https://tux24.xyz/articles/helloworld/</link><pubDate>Sat, 30 Dec 2023 12:16:40 +0800</pubDate><guid>https://tux24.xyz/articles/helloworld/</guid><description>&lt;p>Hello World
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tux24's website</title><link>https://tux24.xyz/tags/</link><description>Recent content in Tags on Tux24's website</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><atom:link href="https://tux24.xyz/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>關於我</title><link>https://tux24.xyz/articles/aboutme/</link><pubDate>Wed, 31 Jan 2024 21:40:23 +0800</pubDate><guid>https://tux24.xyz/articles/aboutme/</guid><description>&lt;h1 id="我是誰-">我是誰 ?&lt;/h1>
+&lt;p>一個住臺北的國二生（目前）。在接受紅藥丸的人中通常叫做 Tux24。&lt;/p>
+&lt;h1 id="這個網站的主旨">這個網站的主旨&lt;/h1>
+&lt;p>雖然說這其實是我的官網而非部落格，但我還是主要把我的文章放在這，我做的其他東西只會以連結的形式出現在首頁。&lt;/p>
+&lt;p>我希望這個網站能作為我存在在這世上過的證據，並且同時將我的思想傳達給世人。其中有些觀念我會稱之為紅藥丸，之後的文章會再多做解釋。&lt;/p>
+&lt;p>如果未來文章累積夠多，我可能會把紅藥丸們獨立出去也說不定。不過那都是之後的事了。&lt;/p>
+&lt;h1 id="最後">最後&amp;hellip;&lt;/h1>
+&lt;p>我（盡量）不使用非自由、中心化的社群媒體，成立這個網站有一部分也是為了這個原因。所以，如果你要在別的地方找到我，可以去以下這些地方：&lt;/p>
+&lt;p>目前還沒有&lt;/p>
+&lt;p>&lt;strong>不要忘了用 RSS 訂閱我！（連結在最底下）&lt;/strong>&lt;/p></description></item><item><title>Helloworld</title><link>https://tux24.xyz/articles/helloworld/</link><pubDate>Sat, 30 Dec 2023 12:16:40 +0800</pubDate><guid>https://tux24.xyz/articles/helloworld/</guid><description>&lt;p>Hello World
 &lt;img src="https://c.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif" alt="">&lt;/p></description></item></channel></rss>
