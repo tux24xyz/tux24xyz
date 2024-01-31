@@ -13,4 +13,4 @@ draft: false
 # 我的文章
 [都在這裡](https://tux24.xyz/articles/)
 ## 自我介紹
-不知道要從哪篇開始就先讀這篇吧！[]
+不知道要從哪篇開始就先讀這篇吧！[https://tux24.xyz/articles/aboutme/]
