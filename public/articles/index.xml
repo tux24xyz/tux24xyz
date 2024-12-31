@@ -1,12 +1,174 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Articles on Tux24's website</title><link>https://tux24.xyz/articles/</link><description>Recent content in Articles on Tux24's website</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Wed, 31 Jan 2024 21:40:23 +0800</lastBuildDate><atom:link href="https://tux24.xyz/articles/index.xml" rel="self" type="application/rss+xml"/><item><title>關於我</title><link>https://tux24.xyz/articles/aboutme/</link><pubDate>Wed, 31 Jan 2024 21:40:23 +0800</pubDate><guid>https://tux24.xyz/articles/aboutme/</guid><description>我是誰 ? 一個住臺北的國二生（目前）。在接受紅藥丸的人中通常叫做 Tux24。
-這個網站的主旨 雖然說這其實是我的官網而非部落格，但我還是主要把我的文章放在這，我做的其他東西只會以連結的形式出現在首頁。
-我希望這個網站能作為我存在在這世上過的證據，並且同時將我的思想傳達給世人。其中有些觀念我會稱之為紅藥丸，之後的文章會再多做解釋。
-如果未來文章累積夠多，我可能會把紅藥丸們獨立出去也說不定。不過那都是之後的事了。
-最後&amp;hellip; 我（盡量）不使用非自由、中心化的社群媒體，成立這個網站有一部分也是為了這個原因。所以，如果你要在別的地方找到我，可以去以下這些地方：
-目前還沒有
-不要忘了用 RSS 訂閱我！（連結在最底下）</description></item><item><title>第一篇文</title><link>https://tux24.xyz/articles/thefirstarticle/</link><pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate><guid>https://tux24.xyz/articles/thefirstarticle/</guid><description>前言 這個網站是為了那些還不懂自由軟體、人權、民主、資訊的力量、世界的真相的人而開始的，我打算從資訊科技的方面開始，一步步的傳達我稱之為「紅藥丸」的概念。
-首先，我會以概念為重，就如同我當初接觸到這些紅藥丸的過程一樣。因為有很多人懂得技術、甚至知道真相的存在，但他們吞了藍藥丸，逃避了現實。我會再寫一篇文章談我指的「紅藥丸」到底是什麼。
-然後，才是技術面的討論。要先說的是，我也是個學生，我是在自己學習的過程中開始這個部落格的（現學現賣），所以可能無法做到最好。但是，寫這個部落格是比我自己的學習更大的貢獻。我希望現在正在讀這篇文章的你，能夠有耐心的讀我所有重要的文章，對我想改變的事有所了解，能夠對這些議題有興趣，進而一起吞下紅藥丸。讓我也能改變世界。
-好啦&amp;hellip; 剛才那段那麼假，直接看向這段也不能算是你的錯。反正這篇文章我以後可能還會更新。
-不管我上面寫了什麼都不用管，用 RSS 訂閱我、讀我的其他（重要的）文章就對了
-我之後會介紹什麼是RSS，以及具體怎麼訂閱我。還不知道的人只要記得看我的官網就好了。</description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tux24's website</title><link>https://tux24.xyz/articles/</link><description>Recent content in Articles on Tux24's website</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tux24.xyz/articles/index.xml" rel="self" type="application/rss+xml"/><item><title>我去了哪，以及我為何回到這裡</title><link>https://tux24.xyz/articles/wheredidigoandwhyiamback/</link><pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate><guid>https://tux24.xyz/articles/wheredidigoandwhyiamback/</guid><description>&lt;p>&lt;strong>這篇文章可能會有點長，但請耐心的讀完&lt;/strong>*&lt;/p>
+&lt;h1 id="負面情緒">負面情緒&lt;/h1>
+&lt;p>從&amp;hellip;大概三四月到現在，也就是八年級下學期至今，我沒有更新這個 Blog，一次都沒有，我總共才發布了兩篇文章。還有其他兩篇我寫到一半還沒發布，原因是當時的我很樂觀也很理想化，連文章發布的順序都規劃好了，所以打算寫完再一次發布。事實證明我是錯的，我根本堅持不到那時候。&lt;/p>
+&lt;p>這件事情一直折磨著我，但這只是後果。真正帶來負面情緒的原因有點難說清楚，混合著壓力、孤獨感、在工作上的挫折、在學校的失敗、精神糧食的失去（現在它算是回來了）以及這個部落格帶來的自責與愧疚感。我當時覺得這樣很對不起自己，同時又希望展現出自己的憂鬱能讓人發現並安慰我，只可惜這沒有發生。&lt;/p>
+&lt;p>我也是在這時接觸到 XXXTENTACION 和 Juice WRLD 這樣的音樂家，知道這世上也有像自己一樣的人似乎加深了負面情緒。最後，我選擇以 &amp;ldquo;Numb&amp;rdquo; 來形容這幾個月的經歷。&lt;/p>
+&lt;h1 id="孤獨與失落">孤獨與失落&lt;/h1>
+&lt;p>我本來以為我會花更長的篇幅來講述我的故事，但這就像三年前一樣，當我在其中時，我就已預見了未來會有一天，我會結束這一切。至於傷心的部份，因為我沒有留下紀錄，這些東西一直在我的心底，我從未向他人講述，我對於自己的情緒只有模糊的印象和認識（這也是導致負面情緒的其中一個原因）。不過我的手機裡目前還有一些我留下的日記錄音，之後有機會再來處理它們。&lt;/p>
+&lt;p>我每天都告訴自己這是最後一天，但這從未結束，現在也是，得直到我上傳這篇文章為止。今天，我認識到了一件事：雖然三年前我是在認識到了孤獨後才走出陰影的，但對我們來說，就算是在孤獨中，也是在和不同時空的人交流。所以我現在正在和你交流（哈）。&lt;/p>
+&lt;p>會讓人痛苦的孤獨是完全不和他人交流，這就是現在的我。我在學校沒有真正的朋友，在其他地方也沒有。朋友不在聲音裡（沒了），也不在文字之間（我都沒讀書），也不在鏡子裡（我討厭自己）。所以感到失落。&lt;/p>
+&lt;p>而這時壞東西就會變本加厲的殺死我。&lt;/p>
+&lt;p>等等，先停在這，23:30 不是個安全的時間。明天接著寫。&lt;/p>
+&lt;p>我回來了&lt;/p></description></item><item><title>關於我</title><link>https://tux24.xyz/articles/aboutme/</link><pubDate>Wed, 31 Jan 2024 21:40:23 +0800</pubDate><guid>https://tux24.xyz/articles/aboutme/</guid><description>&lt;h1 id="我是誰-">我是誰 ?&lt;/h1>
+&lt;p>一個住臺北的國二生（目前）。在接受紅藥丸的人中通常叫做 Tux24。&lt;/p>
+&lt;h1 id="這個網站的主旨">這個網站的主旨&lt;/h1>
+&lt;p>雖然說這其實是我的官網而非部落格，但我還是主要把我的文章放在這，我做的其他東西只會以連結的形式出現在首頁。&lt;/p>
+&lt;p>我希望這個網站能作為我存在在這世上過的證據，並且同時將我的思想傳達給世人。其中有些觀念我會稱之為紅藥丸，之後的文章會再多做解釋。&lt;/p>
+&lt;p>如果未來文章累積夠多，我可能會把紅藥丸們獨立出去也說不定。不過那都是之後的事了。&lt;/p>
+&lt;h1 id="最後">最後&amp;hellip;&lt;/h1>
+&lt;p>我（盡量）不使用非自由、中心化的社群媒體，成立這個網站有一部分也是為了這個原因。所以，如果你要在別的地方找到我，可以去以下這些地方：&lt;/p>
+&lt;p>目前還沒有&lt;/p>
+&lt;p>&lt;strong>不要忘了用 RSS 訂閱我！（連結在最底下）&lt;/strong>&lt;/p></description></item><item><title>第一篇文</title><link>https://tux24.xyz/articles/thefirstarticle/</link><pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate><guid>https://tux24.xyz/articles/thefirstarticle/</guid><description>&lt;h1 id="前言">前言&lt;/h1>
+&lt;p>這個網站是為了那些還不懂自由軟體、人權、民主、資訊的力量、世界的真相的人而開始的，我打算從資訊科技的方面開始，一步步的傳達我稱之為「紅藥丸」的概念。&lt;/p>
+&lt;p>首先，我會以概念為重，就如同我當初接觸到這些紅藥丸的過程一樣。因為有很多人懂得技術、甚至知道真相的存在，但他們吞了藍藥丸，逃避了現實。我會再寫一篇文章談我指的「紅藥丸」到底是什麼。&lt;/p>
+&lt;p>然後，才是技術面的討論。要先說的是，我也是個學生，我是在自己學習的過程中開始這個部落格的（現學現賣），所以可能無法做到最好。但是，寫這個部落格是比我自己的學習更大的貢獻。我希望現在正在讀這篇文章的你，能夠有耐心的讀我所有重要的文章，對我想改變的事有所了解，能夠對這些議題有興趣，進而一起吞下紅藥丸。讓我也能改變世界。&lt;/p>
+&lt;h1 id="好啦">好啦&amp;hellip;&lt;/h1>
+&lt;p>剛才那段那麼假，直接看向這段也不能算是你的錯。反正這篇文章我以後可能還會更新。&lt;/p>
+&lt;p>&lt;strong>不管我上面寫了什麼都不用管，用 RSS 訂閱我、讀我的其他（重要的）文章就對了&lt;/strong>&lt;/p>
+&lt;p>我之後會介紹什麼是RSS，以及具體怎麼訂閱我。還不知道的人只要記得看我的官網就好了。&lt;/p></description></item><item><title/><link>https://tux24.xyz/freesoftware/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tux24.xyz/freesoftware/</guid><description>&lt;h1 id="前言">前言&lt;/h1>
+&lt;p>這是第一顆紅藥丸，如果你還對我接下來要講的東西一點了解都沒有的話，代表你還不懂什麼是自由與平等，還有民主（如果你連這些東西都不知道的話，你完了）。話之所以會講的這麼重是來自於我的親身經驗。了解自由軟體的存在與重要性，你看待這世界的眼光會有所改變。&lt;/p>
+&lt;h1 id="定義">定義&lt;/h1>
+&lt;p>關於自由軟體的定義，可以參考 gnu.org：&lt;/p>
+&lt;p>&lt;strong>自由軟體代表使用者擁有執行、複製、散布、研究、修改、和改善軟體的自由。&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Free software is a matter of liberty, not price. To understand the concept, you should think of “free” as in “free speech,” not as in “free beer.”&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>自由軟體 (Free software) 的 &amp;ldquo;Free&amp;rdquo; 代表的是自由，而非免費的意思。是 &amp;ldquo;free speech&amp;rdquo;「言論自由」的 &amp;ldquo;free&amp;rdquo;，不是 &amp;ldquo;free beer&amp;rdquo;「免費啤酒」的 &amp;ldquo;free&amp;rdquo;。&lt;/p>
+&lt;/blockquote>
+&lt;p>更精確來講，自由軟體代表該程式的使用者擁有&lt;a href="https://www.gnu.org/philosophy/free-sw.html">四大自由&lt;/a>：&lt;/p>
+&lt;ol>
+&lt;li>依照你的想法執行該程式的自由，無論任何目的（自由之零）。&lt;/li>
+&lt;li>研究該程式如何運作、並將之修改來讓電腦運算符合你所設想的自由（自由之壹）。能存取程式的源始碼 (source code) 是這項自由的先決條件。&lt;/li>
+&lt;li>再次散佈程式副本的自由，如此你就能幫助他人（自由之貳）。&lt;/li>
+&lt;li>將你所修改後的版本作成副本散布給他人的自由（自由之參）。如此一來你就讓社群整體有機會因為你的改動而受益。能存取源始碼是這項自由的先決條件。&lt;/li>
+&lt;/ol>
+&lt;p>科技的發展與網路的普及，使得現在這些自由比起1983年之時&lt;a href="https://www.gnu.org/philosophy/free-software-even-more-important.html">更為重要&lt;/a>。&lt;/p>
+&lt;h1 id="解釋">解釋&lt;/h1>
+&lt;p>如果你看不懂上面的四條定義，可以想想維基百科。雖然維基百科不是自由軟體（因為維基百科不是軟體），但我之後還會陸續提到這些在各領域中，理念相同的東西。這是自由的紅藥丸。&lt;/p>
+&lt;p>維基百科能夠被自由的被使用、閱讀、複製、散布、引用、編輯與改善，不論你是誰、不論你在哪。維基百科因為上述特性而屬於全人類、全世界而不是個人或單一機構、公司。自由軟體也一樣。&lt;/p>
+&lt;p>自由軟體要擁有上述特性，先決條件是開放原始碼 (Open Source)，也就是對公眾開放程式的原始代碼，讓任何人都能自由的存取。要注意的是，開源只是自由的先決條件，開源不代表自由，別搞混了。&lt;/p>
+&lt;h1 id="目的">目的&lt;/h1>
+&lt;p>為什麼要了解這些？為什麼自由軟體很重要？為什麼要支持自由軟體？為什麼我說這是一顆最重要的紅藥丸？&lt;/p>
+&lt;p>那是因為自由軟體代表著自由與民主、技術的進步、對抗藍藥丸對我們的控制。&lt;/p>
+&lt;p>自由軟體因為它的特性，使得它就像科學史上的重大發現，科技史上的重大發明一樣，代表著全人類技術的進步。自由軟體越好代表著人類技術越好。自由軟體是、才是人類科技技術進展的指標，而非我等下會提到的專有軟體。&lt;/p>
+&lt;p>自由軟體也代表著使用者對自己所使用的軟體的掌控權。使用自由軟體代表著對軟體的完全掌控權。如果不使用自由軟體，一切都要看軟體提供者的臉色。他是神，而我們是奴隸（或者再好一點）。人民（使用者）無法決定自己的命運，這就不民主。這衍生了現代科技使用者面臨的種種問題，像是隱私權、資安、言論與意見自由、使用自由… 等等。&lt;/p>
+&lt;p>支持自由軟體不是因為朦朧的所謂信仰，這不是你們所想的那種傳統的左右派之爭，這不是你們所想的因為意見不同而產生的分歧，這不是一個沒有答案的問題。如果你要我做出比喻的話，這比較像是科學與民主對上迷信與專制—雖然我不想一竿子打翻一船人。&lt;/p>
+&lt;p>這是一場基於邏輯與科學的辯論，而不是不同路線之間的口水戰。我現在可以說我在邏輯的方面佔有優勢。&lt;/p>
+&lt;p>自由軟體的使用者也可以同時是開發者和提供者，不管你是哪一個，都是在支持自由軟體。&lt;/p>
+&lt;p>&lt;strong>支持自由軟體能加快軟體技術進步的腳步、讓每個人都有平等的使用軟體的權利、杜絕現今普遍的各種隱私權與安全爭議、讓每個人都能不受限制的研究軟體、讓軟體運作過程公開透明無後門、加強使用者對科技的認識、使使用者擁有對公民參與的熱情&lt;/strong>…
+等等。&lt;/p>
+&lt;h1 id="反義詞">反義詞&lt;/h1>
+&lt;p>專有軟體指的是為個人或單一公司、機構所有，原始碼封閉，使用者不得隨意使用、複製、散布、研究、修改、和改善的軟體。是與自由軟體完全相反的概念。&lt;/p>
+&lt;p>支持專有軟體聽起來是十分愚蠢的作法，因為這會導致軟體技術的壟斷、滯足不前，使人不能自由的使用軟體，使軟體提供者能夠控制使用者、對他們做任何事，使使用者無法改善、維護軟體。簡單來說，專有軟體的使用者都是韭菜。&lt;/p>
+&lt;p>我得說明一些例外以正視聽，那就是遊戲。你會發現自由或開源的遊戲很少（還是有很好玩的啦，之後再寫一篇文章談談這些遊戲）。那是因為遊戲裡不只有程式碼，還有藝術創作（音樂、圖像、動畫、建模、劇情&amp;hellip;）這些和程式碼的概念又不太一樣，授權條款不同，基本上沒幾個開發者會把自己遊戲的藝術部份放到公有領域。我是覺得這個問題有點複雜，值得另闢文章討論。遊戲的部份我們先忽略。&lt;/p>
+&lt;p>可惜的是，目前的大眾沒有意識到&lt;a href="">專有軟體和自由軟體的天壤之別&lt;/a>，不僅僅是軟體開發效率、軟體品質上，還有道德與社會問題上的區別。有些人可能有聽過這些名詞，但&lt;/p></description></item><item><title/><link>https://tux24.xyz/linuxdistro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tux24.xyz/linuxdistro/</guid><description>&lt;h1 id="linux-發行版是什麼">Linux 發行版是什麼？&lt;/h1>
+&lt;p>發行版（Distribution, 簡稱 Distro )，是一種在 Linux 才有的概念。要先了解的是，我們平常所說的 Linux 雖然常被認為是一種「作業系統」，但它其實只是眾多「作業系統」的「核心」，Linux 的發行版其實還比較接近「作業系統」的概念。&lt;strong>Linux 發行版其實就是「核心」之上（以外）的程式的總和。用簡單的話來說，Linux 和 Windows or Mac 不是同一個層級（作業系統層級）的，你可以把 Linux 視為眾多「作業系統」的總稱&lt;/strong>，所以你在比較使用體驗的時候應該要拿發行版和 Windows or Mac 比，畢竟不同的發行版之間有很大的差異（這個我等一下會提到）。&lt;/p>
+&lt;p>注意到我剛才放了很多「」嗎？如果你不懂那些詞的話可以看我之後的解釋。&lt;/p>
+&lt;p>給看不懂第一段的人：&lt;/p>
+&lt;p>&lt;img src="~/%E4%B8%8B%E8%BC%89/" alt="">&lt;/p>
+&lt;p>作業系統：你的電腦中比較接近底層（硬體）的軟體，可大可小。可以像 Windows or Mac 那麼肥又難搞，也可以像 Arch Linux（一個我等一下會提到的發行版）如此精簡又可調。&lt;/p>
+&lt;p>核心：整個作業系統中最底層（接近硬體）的部份。&lt;/p>
+&lt;h1 id="一個發行版包含了什麼">一個發行版包含了什麼？&lt;/h1>
+&lt;h2 id="桌面環境">桌面環境&lt;/h2>
+&lt;p>Desktop Environment. 你可以把它理解成你打開電腦後所看到的（幾乎）一切。裡面有「工作列」( Dock ) 、「檔案總管」( Finder ) 、「開始按鈕」以及你應該沒看過的終端機等等。對，你在 Windows/Mac 熟悉的那些東西都會出現，不過通常功能更為強大。除此之外，設定（長的像齒輪的東西）是使用桌面環境才有的東西，這點和 Windows/Mac 不一樣，我很難想像沒有這東西一般使用者要怎麼使用電腦。&lt;/p>
+&lt;h2 id="視窗管理器">視窗管理器&lt;/h2>
+&lt;p>Window Manager. 其實如果你使用桌面環境 (以下簡稱 DE)，視窗管理器 (以下簡稱 WM) 已經包含在內了。但其實想使用電腦，只要有視窗管理器和一些輔助小工具（像是程式啟動器）就夠了。另外，DE 所使用的 WM 通常是浮動式 (Floating) 的，而單獨使用的 WM 通常是平鋪式 (Tiling) 的。我們講到 WM 通常指的是後者。&lt;/p>
+&lt;p>使用 WM 的人有三種可能，一種是極簡主義者、一種是追求只用鍵盤提昇效率的人、還有一種人只是想裝酷。因為 WM 的使用難度通常比 DE 高很多。這篇文章不會推薦 WM 給初學使用者。&lt;/p>
+&lt;h2 id="x11--wayland">X11 &amp;amp; Wayland&lt;/h2>
+&lt;p>詳細內容我放一篇&lt;a href="https://forum.gamer.com.tw/C.php?bsn=60030&amp;amp;snA=631513">巴哈上面的文章&lt;/a>&lt;/p>
+&lt;h3 id="還有其他">還有其他…&lt;/h3>
+&lt;p>再講下去就太多了，反正有興趣的人自己會知道。&lt;/p>
+&lt;h1 id="開始選發行版吧">開始選發行版吧！&lt;/h1>
+&lt;h2 id="如何安裝軟體">如何安裝軟體&lt;/h2>
+&lt;p>在開始前要先補充上一段的內容，也就是我們等一下會提到的套件管理員 (Package Manager) 。&lt;/p>
+&lt;p>在 Windows 下安裝軟體必須下載 .exe或 .msi 的檔案然後點開安裝，你還有可能因為跑到錯誤的網站下載到病毒。Mac 大家應該都知道了。而在 Linux，有三種方法：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>用套件管理員，一種會幫你從套件庫下載套件然後幫你裝到系統上的工具。不同的發行版會有不同的套件管理員，所以在這裡就要提到三大系了：&lt;/p>
+&lt;ol>
+&lt;li>Debian 系
+套件管理員和系統如何更新有很大的關係（畢竟更新就是裝新軟體嘛），Debian 系使用的套件管理員叫做 dpkg，前端叫做 apt。（前端後端不用管，因為你基本上用不到後端）。採用的是版本號的更新方式，也就是 Windows 採用的方法。以 Debian 來說，它的更新速度真的非常慢，很適合開發者做出其他的發行版，所以 Debian 系目前是 Linux 作業系統中最大的一支。&lt;/li>
+&lt;li>Arch 系
+Arch 系採滾動更新（Rolling release），意思是說系統永遠保持在最新狀態，如果太久不更新可能會造成無法挽回的後果。我最喜歡 Arch 的套件管理員有兩個原因，一個是滾動更新能讓我用到最新的軟體，不過有時候會有點小 Bug 就是了；一個是 Arch 有最大的（非官方）套件庫：AUR，&lt;a href="https://ivonblog.com/posts/archlinux-aur-introduction/">詳細請看這篇文章&lt;/a>。&lt;/li>
+&lt;li>Fedora 系
+Fedora 系採半滾動更新，意思是只有非核心軟體採用滾動更新，核心軟體還是用版本號的方式。Fedora 系使用的套件管理員為 rpm，前端叫做 dnf。Fedora 更新速度也比較快，相較於 Debian 的兩年一次大版本，Fedora 九個月就大更新一次。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>手動從原始碼編譯安裝&lt;/p>
+&lt;p>這個一般人不用知道。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>用跨發行版的方法(Flatpak, Snap &amp;amp; Appimage)&lt;/p>
+&lt;p>三者使用的都是把整個程式打包的方法，解決不同發行版版本不同步的問題，還能順便防止程式把你的電腦搞壞。我自己只用 Flatpak，而且我能用套件管理員就用套件管理員。我只會在 Debian/Fedora 系發行版套件庫沒有我想要的東西的時候用 Flatpak。我覺得以新手來說，&lt;a href="https://www.youtube.com/watch?v=mL9ztTzrY6Y">只用 Flatpak 不見得是好事&lt;/a>。我雖然同意 Luke Smith 的觀點，但用了也不會怎樣啦，有些桌面軟體我也是用 Flatpak 裝的，畢竟新手肯定解決不了依賴地獄。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="進入正題">進入正題&lt;/h2>
+&lt;p>我將以難度作為主要標準，然後才是其他方面的考量。&lt;/p>
+&lt;h3 id="警告">警告！&lt;/h3>
+&lt;p>在開始之前，看得懂英文的人應該先看這兩部影片：&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=KyADkmRVe0U">影片一&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=MuP-9O7gNIc">影片二&lt;/a>&lt;/p>
+&lt;p>為了懶惰以及英文不好的人，我直接幫你們節錄重點：&lt;/p>
+&lt;p>&lt;img src="tierlist1.png" alt="Tierlist1">&lt;/p>
+&lt;p>&lt;img src="tierlist2.png" alt="Tierlist2">&lt;/p>
+&lt;p>&lt;em>對了，如果你還不知道哪個 Logo 對應的是哪個發行版，去看影片下面的說明欄和時間軸&lt;/em>&lt;/p>
+&lt;p>你會發現兩個人的 Tierlist 有著很大的差異（除了 Manjaro 都在很下面），這是切入角度（使用者需求）的不同所造成的，所以這就來到了本篇又臭又長的文章的重點。&lt;strong>發行版的優劣是根據用的人的需求來決定的，除了一些重點。&lt;/strong> 而重點就是，&lt;strong>盡量不要以預設的發行版外表為選擇的標準&lt;/strong> 因為決定外表的是我剛提過的 DE 和 WM，而不是發行版，不過當然，有些發行版不適合裝非預設的桌面環境就是了。&lt;/p>
+&lt;h3 id="小測驗">小測驗&lt;/h3>
+&lt;p>來自&lt;a href="https://wiwi.video/w/1Ba5WAn2ypDGMiyazMJjuT">好檸檬 Podcast&lt;/a>：&lt;/p>
+&lt;ol>
+&lt;li>&lt;input disabled="" type="checkbox"> 你能不能打開電腦並用瀏覽器上網？&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 你能不能用 email 夾帶一個檔案寄出去？&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 你能不能幫你的瀏覽器裝上可以擋廣告的外掛？&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 你能不能解釋什麼是 ip 位址和 VPN？&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 你有沒有用一個安全的密碼管理器管理你的所有密碼（瀏覽器內建的都不算）？&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 你能不能使用一些基本的終端機指令完成一些日常基本操作（Ex. 複製檔案）？&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 你能不能用隨便一個程式語言寫一個小程式幫助你完成一些日常工作（腳本也算）？&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 你能不能自己安裝 Linux 系統到電腦上？&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 你有沒有自己的伺服器並架一些東西？&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 你有沒有開發過軟體或者以任何形式對自由軟體做出貢獻？&lt;/li>
+&lt;/ol>
+&lt;p>&lt;em>註：我未來可能會更改這個小測驗的內容，因為我覺得它目前還不夠完善&lt;/em>&lt;/p>
+&lt;p>看你符合其中幾項（順序不重要）？&lt;/p>
+&lt;h3 id="終於開始">（終於）開始！&lt;/h3>
+&lt;p>首先是難度等級 - 最低：
+如果你很少用電腦，不常用電腦，平常都用手機、自認是「3C 白痴」、剛才測驗只會前兩項或更少。那我會直接建議你去用 &lt;strong>&lt;a href="https://www.linuxmint.com/">Linux Mint&lt;/a>&lt;/strong> 。&lt;/p>
+&lt;p>Linux Mint 才是最適合初學者的發行版，沒有別的。因為它有內建中文輸入法、簡易的安裝過程、方便的軟體商店、各種完善的支援。而且預設界面（Cinnamon DE 版）長的像 Windows XP （不喜歡的話也可以改得很漂亮，但我想你們大多數都不在意，因為我還沒看過比 Windows 10 更醜的東西）。給一句評語：&lt;strong>&amp;ldquo;It just works.&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>如果你是在這個難度層級，但是想要比較接近 Mac OS 的使用體驗。那你也可以試試看&lt;a href="https://system76.com/">Pop!_OS&lt;/a>, &lt;a href="https://nobaraproject.org/download-nobara/">Nobara GNOME&lt;/a>, &lt;a href="https://fedoraproject.org/">Fedora&lt;/a>。不過這些我都沒用過，所以不會第一個推薦。其中如果你有玩遊戲的需求，建議用 Nobara。&lt;/p>
+&lt;p>順帶一提，身為 Mac 使用者的官大為老師，曾經推薦 Pop!_OS … 不過那是 2021 年 9 月的事了。&lt;/p>
+&lt;h3 id="難度等級---中">難度等級 - 中&lt;/h3>
+&lt;p>如果你們中的有些人在 Windows/Mac 使用者中算是會一些進階使用技巧、會用電腦做一些專業的事、是「Office 大師」、「Adobe 大師」、會看那些&lt;a href="">藍藥丸科技頻道&lt;/a>。那恭喜你來到這個級別。&lt;/p>
+&lt;p>如果你對自己不太有自信，請回到上一級，不要勉強，我很怕失去你們的注意力。&lt;/p>
+&lt;p>這一級和上一級的差別是我選了自訂性更強的 KDE（預設界面接近 Windows 11，可以改的完全不一樣） 來作為 DE。我首推 Nobara KDE，我用過，非常適合新手和玩家使用。如果你完全不想玩遊戲，也可以選擇 Fedora Spin KDE 或 Kubuntu。&lt;/p>
+&lt;p>新增一個：Zorin OS。這個發行版比較特殊，雖然用的是 GNOME 桌面環境，但被它們團隊魔改的超像 Windows。如果你是完全不想自訂的人，想要最接近 Windows 的使用體驗，請選 Zorin OS。&lt;/p>
+&lt;p>一樣，如果你想要比較接近 Mac OS 的使用體驗，我還是推薦上一級的選項。&lt;/p>
+&lt;h3 id="難度等級---軟體玩家">難度等級 - 軟體玩家&lt;/h3>
+&lt;p>我在此先假設你玩的是那些比較「認真」的遊戲，而不是「幼稚」的遊戲。嗯&amp;hellip;懂的都懂。&lt;/p>
+&lt;p>我問個問題：顯卡、CPU、記憶體是什麼。&lt;/p>
+&lt;p>好，如果你答的出來，我們繼續。&lt;/p>
+&lt;p>我唯一推薦 Nobara KDE（或 GNOME，不過長的比較不像 Windows&amp;hellip;），如果你想玩遊戲的話，Nobara 幫你把所需的一切都打理好了，只要開始玩就好了。我之後會再寫一篇 Gaming 須知。&lt;/p>
+&lt;p>如果你有 Steam Deck，桌面模式採用的就是 KDE。如果你想在電腦上也玩遊戲，Nobara KDE 是你最好的選擇。&lt;/p>
+&lt;h3 id="難度等級---硬體玩家">難度等級 - 硬體玩家&lt;/h3>
+&lt;p>如果你會自己組電腦，那你可以直接來這一級了。你很有可能會自己裝 Windows 到電腦上，所以圖形化安裝肯定難不倒你。嗯&amp;hellip;那還有什麼會成為你的關卡呢？&lt;/p>
+&lt;p>那可能是終端機吧。我推薦想挑戰自己的人試試看 Endeavour OS KDE 或 ArcoLinuxB KDE。不過不要第一次就試，建議先從前面提過的發行版先開始，用 KDE 桌面環境你會比較熟悉預設介面。到這個等級，有興趣的人可以開始在 YT 上找一些 KDE 美化的教學影片並照著做，畢竟界面好看也是 Linux 的最大優點之一。如果過程中遇到問題也可以&lt;a href="tux24xyz@protonmail.com">寫信來問我&lt;/a>，我會很樂意回信幫忙的。&lt;/p>
+&lt;h3 id="難度等級---mac">難度等級 - Mac&lt;/h3>
+&lt;p>如果你是個算是會用 Mac 的使用者，那我推薦使用 GNOME 桌面環境的發行版。&lt;/p>
+&lt;p>同樣的桌面環境，只要在自由度夠高的發行版中就有許多選擇。&lt;/p>
+&lt;p>以三大系來說
+Debian：Pop!_OS（它的桌面環境已經不是 GNOME 了，但也是 GNOME 的改版）、Zorin OS（如果你擅長自定義桌面，我不太推薦這個給想要舒服使用的人）
+Arch（先試過其他系的發行版再說）：Endeavour OS GNOME、ArcoLinuxB GNOME
+Fedora：Fedora、Nobara GNOME（如果你想玩遊戲）&lt;/p>
+&lt;h3 id="難度等級---不重要">難度等級 - 不重要&lt;/h3>
+&lt;p>如果你已經不在乎難度，一開始的小測驗符合 6＆7 項。那你可以試著挑戰自己，使用 Endeavour OS 或 ArcoLinux，這些發行版不會有最好的支援，但我覺得是鍛鍊除錯、動手能力，前往下一階段的好地方。&lt;/p>
+&lt;h2 id="等等你是不是漏了什麼">等等&amp;hellip;你是不是漏了什麼…&lt;/h2>
+&lt;p>是的，從文章開始到現在，「Ubuntu」這個字我一次都沒提過。原因是它的母公司 Cannonical 強推自己出品的 Snap（我在安裝軟體方式 3 有提到），在 Ubuntu 下使用 apt 命令安裝軟體預設會被強制改成 Snap 安裝，Ubuntu 自己的軟體中心（類似 App Store）也不例外。而且 Snap 的伺服器不夠多，軟體又是閉源的，種種原因讓我很反感。&lt;/p>
+&lt;p>還有 Manjaro，我人生第一個接觸的發行版。安裝軟體方式 3 和一開始 Tierlist 的影片有提到 Manjaro 的問題。還有&lt;a href="https://forum.gamer.com.tw/C.php?bsn=60030&amp;amp;snA=628831">這個&lt;/a>、&lt;a href="https://youtu.be/oVlD17OjFAc">這個&lt;/a>、&lt;a href="https://youtu.be/ZY_HB9lOJhk">跟這個&lt;/a>。我想也不用多講了，哪有使用 Arch 系發行版卻不能用 AUR 的道理。&lt;/p>
+&lt;p>Debian 和 Arch 不在這單純只是不適合新手。就像一開始講的，如果你是對技術有興趣，不怕困難的人應該使用來自最源頭的發行版，並享受自己動手、自由度超高的樂趣（這在 Windows/Mac 絕對體驗不到）。&lt;/p>
+&lt;h3 id="我自己用的發行版">我自己用的發行版&lt;/h3>
+&lt;p>我現在打這篇文章是在裝了 Arch + LARBS 的破筆電上，&lt;strong>我不推薦使用你不完全知道它做了什麼事的一鍵安裝腳本&lt;/strong>。用腳本沒問題，但你要知道它做了什麼。我是先裝了才開始學，所以也花了超多的時間除錯（我的 Nvidia 獨顯到現在還不能用，玩遊戲請找 Nobara）。我玩遊戲的電腦目前裝的是 Nobara KDE。我用過 Linux Mint Cinnamon、Manjaro KDE、Artix + i3 WM 等等發行版。還沒用過 GNOME，之後打算試試看 ArcoLinuxB GNOME。&lt;/p>
+&lt;h2 id="總結">總結&lt;/h2>
+&lt;p>終於結束這超長的文章了，我想知道自己有什麼講錯、不夠全面的地方、想聽更多不同的意見。我還沒想好要如何建立留言系統，所以請每位有空的熱心讀者&lt;a href="tux24xyz@protonmail.com">寫信&lt;/a>來分享建議，讓我改進我的文章！&lt;/p>
+&lt;p>如果你在現實生活中認識我本人，請不要吝惜時間，直接問我問題或是分享建議！&lt;/p>
+&lt;p>我之後會寫更多文章分享一些讀者會碰到的問題的答案，有你們的建議，才有之後的主題。&lt;/p>
+&lt;p>&lt;strong>記得用 RSS 訂閱我（連結在最下面）&lt;/strong>，下次見。&lt;/p></description></item></channel></rss>

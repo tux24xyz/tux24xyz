@@ -2,3 +2,4 @@ baseURL = 'https://tux24.xyz/'
 languageCode = 'zh-TW'
 title = "Tux24's website"
 theme = "lugo"
+
