@@ -1,0 +1,60 @@
+name: Deploy Hugo Blog
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    # 每天早上 8:00 (UTC) 自動檢查並部署
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        submodules: true
+        fetch-depth: 0
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.124.1'
+        extended: true
+
+    - name: Build Hugo site
+      run: |
+        hugo --minify --gc
+
+    - name: Deploy to VPS
+      uses: appleboy/ssh-action@v0.1.10
+      with:
+        host: ${{ secrets.VPS_HOST }}
+        username: ${{ secrets.VPS_USER }}
+        key: ${{ secrets.VPS_SSH_KEY }}
+        script: |
+          echo "Starting deployment..."
+          cd /var/www/myblog
+          
+          # 備份當前版本
+          if [ -d "public" ]; then
+            cp -r public public_backup_$(date +%Y%m%d_%H%M%S)
+          fi
+          
+          # 拉取最新代碼
+          git pull origin main
+          
+          # 建置網站
+          hugo --minify --gc
+          
+          # 檢查建置結果並重載 nginx
+          if [ -d "public" ] && [ "$(ls -A public)" ]; then
+            sudo systemctl reload nginx
+            echo "Deployment completed successfully!"
+          fi
+          
+          # 清理舊備份（保留最近5個）
+          ls -t public_backup_* 2>/dev/null | tail -n +6 | xargs rm -rf
