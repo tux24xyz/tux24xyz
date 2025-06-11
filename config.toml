@@ -1,6 +1,82 @@
 baseURL = 'https://tux24.xyz/'
 languageCode = 'zh-TW'
-title = "Tux24's website"
+title = "tux24 的個人網站"
 theme = "hugo-coder"
+
+#baseurl = "http://www.example.com"
+#title = "johndoe"
+#theme = "hugo-coder"
+#languagecode = "en"
+#defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 20
+
+[service]
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "tux24"
+  info = "一個國中剛畢業的學生"
+  description = "tux24 的個人網站"
+  avatarurl = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/tux24xyz/"
+
+# Menu links
+[[menu.main]]
+  name = "文章"
+  weight = 1
+  url  = "articles/"
+[[menu.main]]
+  name = "關於"
+  weight = 2
+  url = "about/"
+[[menu.main]]
+  name = "近況"
+  weight = 3
+  url = "now/"
+[[menu.main]]
+  name = "連結"
+  weight = 4
+  url = "links/"
+[[menu.main]]
+  name = "工具"
+  weight = 5
+  url = "use/"
+[[menu.main]]
+  name = "標籤"
+  weight = 6
+  url = "tags/"
 
 
