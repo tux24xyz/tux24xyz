@@ -4,7 +4,6 @@ on:
   push:
     branches: [ main ]
   schedule:
-    # 每天早上 8:00 (UTC) 自動檢查並部署
     - cron: '0 0 * * *'
   workflow_dispatch:
 
@@ -22,39 +21,89 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.111.3'
+        hugo-version: '0.124.1'
         extended: true
 
     - name: Build Hugo site
       run: |
-        hugo --minify --gc
+        hugo --minify --gc --verbose
 
     - name: Deploy to VPS
-      uses: appleboy/ssh-action@v0.1.10
+      uses: appleboy/ssh-action@v1.0.3
       with:
         host: ${{ secrets.VPS_HOST }}
         username: ${{ secrets.VPS_USER }}
         key: ${{ secrets.VPS_SSH_KEY }}
+        port: 22
+        timeout: 300s
+        command_timeout: 60s
         script: |
-          echo "Starting deployment..."
+          set -e
+          
+          echo "=== 開始部署 ==="
+          echo "當前用戶: $(whoami)"
+          echo "當前目錄: $(pwd)"
+          
+          # 使用正確的目錄路徑
           cd /tux24xyz
+          echo "切換到目錄: $(pwd)"
+          
+          # 清理 Git 子模組問題
+          echo "清理 Git 狀態..."
+          git submodule foreach --recursive git clean -fd
+          git submodule foreach --recursive git reset --hard
+          git submodule update --init --recursive
           
           # 備份當前版本
-          if [ -d "public" ]; then
-            cp -r public public_backup_$(date +%Y%m%d_%H%M%S)
+          if [ -d "public" ] && [ "$(ls -A public 2>/dev/null)" ]; then
+            backup_name="public_backup_$(date +%Y%m%d_%H%M%S)"
+            echo "備份當前版本到: $backup_name"
+            cp -r public "$backup_name"
           fi
           
           # 拉取最新代碼
-          git pull origin main
+          echo "拉取最新代碼..."
+          git fetch origin
+          git reset --hard origin/main
+          git submodule update --init --recursive
+          
+          # 檢查 Hugo 版本
+          echo "Hugo 版本: $(hugo version)"
           
           # 建置網站
-          hugo --minify --gc
+          echo "開始建置網站..."
+          hugo --minify --gc --verbose
           
-          # 檢查建置結果並重載 nginx
-          if [ -d "public" ] && [ "$(ls -A public)" ]; then
-            sudo systemctl reload nginx
-            echo "Deployment completed successfully!"
+          # 檢查建置結果
+          if [ ! -d "public" ] || [ ! "$(ls -A public)" ]; then
+            echo "錯誤: 網站建置失敗或 public 目錄為空"
+            exit 1
           fi
           
-          # 清理舊備份（保留最近5個）
-          ls -t public_backup_* 2>/dev/null | tail -n +6 | xargs rm -rf
+          echo "網站建置成功，檔案數量: $(find public -type f | wc -l)"
+          
+          # 設定正確的權限
+          chmod -R 755 public
+          
+          # 測試 nginx 配置並重載
+          if sudo nginx -t; then
+            sudo systemctl reload nginx
+            echo "✅ Nginx 重載成功"
+          else
+            echo "❌ Nginx 配置測試失敗"
+            exit 1
+          fi
+          
+          # 檢查 Nginx 狀態
+          if sudo systemctl is-active --quiet nginx; then
+            echo "✅ 部署完成！Nginx 正在運行"
+          else
+            echo "❌ 警告: Nginx 未正常運行"
+            sudo systemctl status nginx
+          fi
+          
+          # 清理舊備份（保留最近3個）
+          ls -t public_backup_* 2>/dev/null | tail -n +4 | xargs -r rm -rf
+          echo "清理舊備份完成"
+          
+          echo "=== 部署完成 ==="
