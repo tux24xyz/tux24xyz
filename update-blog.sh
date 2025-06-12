@@ -122,7 +122,7 @@ EOF
 
 if [ $? -eq 0 ]; then
     log_success "部落格更新完成！"
-    log_info "網站連結: https://yourdomain.com"
+    log_info "網站連結: https://tux24.xyz"
 else
     log_error "VPS 部署失敗"
     exit 1
