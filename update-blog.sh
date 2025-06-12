@@ -13,9 +13,9 @@ BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
 # 配置變數（請根據你的設定修改）
-VPS_USER="tux24"
+VPS_USER="root"
 VPS_HOST="tux24.xyz"
-VPS_PATH="/var/www/tux24xyz"
+VPS_PATH="/tux24xyz"
 GITHUB_REPO="tux24xyz/tux24xyz"
 
 # 函數：輸出彩色訊息
