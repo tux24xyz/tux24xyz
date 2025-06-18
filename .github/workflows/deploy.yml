@@ -47,8 +47,6 @@ jobs:
           # 使用正確的目錄路徑
           cd /tux24xyz
           echo "切換到目錄: $(pwd)"
-          # 移動準備好發布的文章
-          mv ./content/drafts/ready/* ./content/articles
           # 清理 Git 子模組問題
           echo "清理 Git 狀態..."
           git submodule foreach --recursive git clean -fd
