@@ -2,6 +2,7 @@
 title: "It's a gift and a curse (2024 年度回顧)"
 date: 2024-12-31T22:30:00+08:00
 draft: false
+tags: ["🐧我的事"]
 ---
 ### 前言
 
