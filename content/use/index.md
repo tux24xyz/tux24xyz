@@ -189,25 +189,41 @@ _如果你想和我聯絡的話，歡迎來信 tux24xyz@protonmail.com !_
 ### 內部硬體
 
 #### 1 號電腦 （陪了我很久）
+
 Operating System: Nobara Linux 42
+
 Processors: Intel® Core™ i5-9***U
+
 Graphics Processor: Nvidia GeForce GTX 1650
+
 Memory: 16GB
+
 Disk: 250GB+1TB
 
 #### 2 號電腦 （最強）
+
 Operating System: Nobara Linux 42
+
 Processors: 20 × Intel® Core™ Ultra 7 265K
+
 Memory: 32GB
+
 Graphics Processor 1: NVIDIA GeForce RTX 5080
+
 Graphics Processor 2: Intel® Graphics (integrated)
+
 Disk: 1TB+2TB
 
 #### 3 號電腦 （Intel NUC 小電腦） 
+
 Operating System: Linux Mint
+
 Processors: Intel i5-5250U (4) @ 2.700GHz 
+
 Graphics Processor: Intel HD Graphics 6000 
+
 Memory: 16GB 
+
 Disk: 500GB
 
 #### 1 號筆電
@@ -215,17 +231,25 @@ Disk: 500GB
 ### 外部硬體
 
 #### 1 號電腦
+
 Keyboard: Logitech G512
+
 Mouse: Logitech G402
+
 Screen: ROG XG-279Q
  
 #### 2 號電腦
+
 Keyboard: MSI Vigor GK50 low profile
+
 Mouse: Logitech G502X
+
 Screen: AOC, 27 inches, 2K
 
 #### 3 號電腦
+
 沒有名字的薄膜鍵盤和便宜滑鼠
+
 Screen: AOC, 27 inches, 2K / 我家的電視螢幕
 
 ## 🎧️耳機
