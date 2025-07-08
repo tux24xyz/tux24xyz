@@ -2,7 +2,7 @@
 title: "關於我和這個網站"
 date: 2024-01-31T21:40:23+08:00
 publishDate: 2025-06-26T06:00:00+08:00
-lastmod: 2025-06-19T18:13:00+08:00
+lastmod: 2025-07-08+08:00
 draft: false
 tags: ["🐧我的事"]
 ---
@@ -18,7 +18,7 @@ btw下一間學校應該會是建國中學，入學後再來更新這篇文章�
 
 2010年，我在台北出生，現在 15 歲了。
 
-2021 年看到了 wiwi 的[這個影片](https://nicechord.com/post/making-music-with-linux/)（連結放的是文章），從此開始用 Linux 和其他自由軟體，開始努力的成為真．宅男。
+2021 年看到了 wiwi 的[這個影片](https://nicechord.com/post/making-music-with-linux/)（連結放的是文章），從此開始用 Linux 和其他自由軟體，開始努力的成為真．宅男（參見下一句話）。
 之所以會開始寫這個 Blog，一開始是因為 wiwi 說了「台灣的科技 YouTuber 他都不喜歡」，加上 wiwi 和 Luke Smith 一直催我要架自己的網站，所以我就架了一個主旨是宣傳[這個理念](https://wiwi.blog/blog/fake-vs-real-tech-nerd)的 Blog，結果…
 
 我停更了一年。[^1]
@@ -27,10 +27,10 @@ btw下一間學校應該會是建國中學，入學後再來更新這篇文章�
 
 直到 2024（去年）年底，因為我在架設這個網站時想的名字 tux24 的關係，我覺得名不符實不太好（[好名字很重要！](https://wiwi.blog/docs/wisdom/nice-name/)），所以我又回來寫了[這篇文章](https://tux24.xyz/articles/it-is-a-gift-and-a-curse/)，緊接著再次斷更。藉口是「要考建中科學班太忙了」，我內心覺得雖然是很忙，但時間並非擠不出來，其實只是我[懶得動腦](https://wiwi.blog/blog/brain-exercise)寫作。
 
-後來我沒有考上科學班，所以我直到會考結束、從法國回來後我才重新開始更新這個網站。我改了網站的主題，from lugo by Luke Smith to Coder。讓網站更加易讀，我也用 Github Actions 成功打造了自動發布文章的工作流程。總算是可以開始寫作了。
+後來我沒有考上科學班，所以我直到會考結束、從法國回來後我才重新開始更新這個網站。我改了網站的主題，從 lugo by Luke Smith 改成 Coder。讓網站更加易讀，我也用 Github Actions 成功打造了自動發布文章的工作流程。總算是可以開始寫作了。
 
 我應該算是內向，我還是傾向於待在家裡而非學校。我很難和陌生人交談，有時連點餐都有困難。
-# 
+
 # 這個網站的主旨
 
 雖然說這其實是我的官網而非部落格，但我還是主要把我的文章放在這，我做的其他東西只會以連結的形式出現在首頁。
