@@ -220,8 +220,8 @@ process_template() {
     # 讀取模板內容
     local template_content=$(cat "$SELECTED_TEMPLATE")
     
-    # 替換變數
-    template_content=$(echo "$template_content" | sed "s/{{TITLE}}/$ARTICLE_TITLE/g")
+    # 替換變數 - 將標題用引號包起來
+    template_content=$(echo "$template_content" | sed "s/{{TITLE}}/\"$ARTICLE_TITLE\"/g")
     template_content=$(echo "$template_content" | sed "s/{{DATE}}/$current_time/g")
     # 修復：在模板替換時直接加上方括號，生成正確的 YAML 數組格式
     template_content=$(echo "$template_content" | sed "s/{{TAGS}}/[$SELECTED_TAGS_YAML]/g")
