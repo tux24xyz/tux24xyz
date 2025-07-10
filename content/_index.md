@@ -3,16 +3,6 @@ title: "Tux24的官網首頁"
 date: 2024-01-30
 draft: false
 ---
-
-# 這是我
-
-![我](https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png)
-
-*是時候該請個繪師了*
-
-# 我的文章
-[都在這裡](https://tux24.xyz/articles/)
-## 自我介紹
-[不知道要從哪篇開始就先讀這篇吧！](https://tux24.xyz/articles/aboutme/)
-# 斗內
-Monero(XMR) : 45NaoXmwoopATtZVTjvdKc1uLwPRaowQKcetRtif3b4pAxHWs1ghVKcg2dXB7Kd8wS7o3Sc5gmapqKCNJjmotXdADe8tYFX
+這是 tux24 的個人網站
+如果你看到了這句話，就點進來吧
+你會看到這個人的一切故事，關於他的一切
