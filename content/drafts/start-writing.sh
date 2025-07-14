@@ -24,7 +24,7 @@ AVAILABLE_TAGS=(
     "🎵音樂" "🔬科學" "🖥️科技" "🎨美術" "📚️閱讀" 
     "🛟生活" "🐧我的事" "💭哲學" "🎥電影" "💦動畫" 
     "📝寫作" "🤔觀察" "🎮️遊戲" "🤪有趣" "⭐️重要"
-    "✈️旅遊"
+    "✈️旅遊" "💪健康"
 )
 
 # 函數：輸出彩色訊息
@@ -241,6 +241,9 @@ organize_article_files() {
     
     # 創建同名資料夾
     mkdir -p "$folder_path"
+
+    # 創建圖片資料夾
+    mkdir -p "$folder_path/images"
     
     # 移動文件到資料夾中並重命名為 index.md
     local new_filepath="${folder_path}/index.md"
