@@ -20,14 +20,14 @@ style = "github-dark"
 
 [params]
   author = "tux24"
-  info = "一個國中剛畢業的學生"
+  info = "想認識我的話，就透過這個網站吧"
   description = "tux24 的個人網站"
   avatarurl = "images/avatar.jpg"
   #gravatar = "john.doe@example.com"
 
-  faviconSVG = "/img/favicon.svg"
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+  faviconSVG = "images/favicon.svg"
+  favicon_32 = "images/favicon-32x32.png"
+  favicon_16 = "images/favicon-16x16.png"
 
   since = 2024
 
