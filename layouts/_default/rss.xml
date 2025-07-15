@@ -10,8 +10,8 @@
     
     <!-- 添加編輯器和生成器信息 -->
     <generator>Hugo {{ hugo.Version }}</generator>
-    <managingEditor>{{ .Site.Author.email | default "tux24xyz@protonmail.com" }} ({{ .Site.Author.name | default "tux24" }})</managingEditor>
-    <webMaster>{{ .Site.Author.email | default "tux24xyz@protonmail.com" }} ({{ .Site.Author.name | default "tux24" }})</webMaster>
+    <managingEditor>{{ .Site.Author.email | default "noreply@example.com" }} ({{ .Site.Author.name | default "tux24" }})</managingEditor>
+    <webMaster>{{ .Site.Author.email | default "noreply@example.com" }} ({{ .Site.Author.name | default "tux24" }})</webMaster>
     
     <!-- 添加網站圖標 -->
     {{ with .Site.Params.logo }}
@@ -31,7 +31,7 @@
       
       <!-- 作者信息 -->
       {{ with .Site.Author.name }}
-      <author>{{ $.Site.Author.email | default "tux24xyz@protonmail.com" }} ({{ . }})</author>
+      <author>{{ $.Site.Author.email | default "noreply@example.com" }} ({{ . }})</author>
       {{ end }}
       
       <!-- 分類和標籤 -->
@@ -49,11 +49,7 @@
       </description>
       
       <!-- 全文內容 -->
-      <content:encoded>
-        <![CDATA[
-          {{ .Content | safeHTML }}
-        ]]>
-      </content:encoded>
+      <content:encoded>{{ printf "<![CDATA[%s]]>" (.Content | replaceRE `]]>` `]]]]><![CDATA[>`) | safeHTML }}</content:encoded>
     </item>
     {{ end }}
   </channel>
