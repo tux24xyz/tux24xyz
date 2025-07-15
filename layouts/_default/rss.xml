@@ -22,7 +22,7 @@
     </image>
     {{ end }}
     
-    {{ range first 20 .Pages }}
+    {{ range .Site.RegularPages.ByDate.Reverse }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
