@@ -33,7 +33,7 @@ code: true        # 是否有程式碼
 
 我記得課本上在介紹 Windows 系統時有稍微提到另外兩個作業系統（好啦我知道有一個不算，但課本當時是這麼教我們的），我是說 Mac OS 和 Linux。我印象深刻，三個作業系統被放在頁面的右下角一起比較，有三張桌面的截圖，和底下簡短的文字說明。課本為 Linux 挑選的圖片是 MX Linux 的截圖，我還記得背景圖片是一隻蜻蜓。
 
-這是個錯誤！如果當時課本放的圖片像是[我剛才到 r/unixporn 隨手抓下來的這張截圖](https://www.reddit.com/r/unixporn/comments/1ls4xdv/hyprland_my_virginity_defense_ft_quickshell/)的話**我（可能還有我同學）的人生會整個改變欸！**你能想像一下這張圖片和 Windows 7 那張預設的圖片擺在一起的樣子嗎？
+這是個錯誤！如果當時課本放的圖片像是[我剛才到 r/unixporn 隨手抓下來的這張截圖](https://www.reddit.com/r/unixporn/comments/1ls4xdv/hyprland_my_virginity_defense_ft_quickshell/)的話**我（可能還有我同學）的人生會整個改變欸**！你能想像一下這張圖片和 Windows 7 那張預設的圖片擺在一起的樣子嗎？
 
 ![我剛才到 r/unixporn 隨手抓下來的這張截圖](images/snapshot.jpg)
 

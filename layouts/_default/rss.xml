@@ -1,0 +1,60 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{{ .Site.Title }}</title>
+    <link>{{ .Site.BaseURL }}</link>
+    <description>{{ .Site.Params.Description | default "Recent content" }}</description>
+    <language>{{ .Site.Language.Lang | default "zh-TW" }}</language>
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
+    
+    <!-- 添加編輯器和生成器信息 -->
+    <generator>Hugo {{ hugo.Version }}</generator>
+    <managingEditor>{{ .Site.Author.email | default "tux24xyz@protonmail.com" }} ({{ .Site.Author.name | default "tux24" }})</managingEditor>
+    <webMaster>{{ .Site.Author.email | default "tux24xyz@protonmail.com" }} ({{ .Site.Author.name | default "tux24" }})</webMaster>
+    
+    <!-- 添加網站圖標 -->
+    {{ with .Site.Params.logo }}
+    <image>
+      <url>{{ . | absURL }}</url>
+      <title>{{ $.Site.Title }}</title>
+      <link>{{ $.Site.BaseURL }}</link>
+    </image>
+    {{ end }}
+    
+    {{ range first 20 .Pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <guid>{{ .Permalink }}</guid>
+      
+      <!-- 作者信息 -->
+      {{ with .Site.Author.name }}
+      <author>{{ $.Site.Author.email | default "tux24xyz@protonmail.com" }} ({{ . }})</author>
+      {{ end }}
+      
+      <!-- 分類和標籤 -->
+      {{ range .Params.tags }}
+      <category>{{ . }}</category>
+      {{ end }}
+      
+      <!-- 摘要描述 -->
+      <description>
+        {{ if .Summary }}
+          {{ .Summary | html }}
+        {{ else }}
+          {{ .Plain | truncate 300 | html }}
+        {{ end }}
+      </description>
+      
+      <!-- 全文內容 -->
+      <content:encoded>
+        <![CDATA[
+          {{ .Content | safeHTML }}
+        ]]>
+      </content:encoded>
+    </item>
+    {{ end }}
+  </channel>
+</rss>
