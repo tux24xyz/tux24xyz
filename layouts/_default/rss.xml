@@ -14,7 +14,7 @@
     <webMaster>{{ .Site.Author.email | default "noreply@example.com" }} ({{ .Site.Author.name | default "tux24" }})</webMaster>
     
     <!-- 添加網站圖標 -->
-    {{ with .Site.Params.logo }}
+    {{ with .Site.Params.FaviconSVG }}
     <image>
       <url>{{ . | absURL }}</url>
       <title>{{ $.Site.Title }}</title>
@@ -30,7 +30,7 @@
       <guid>{{ .Permalink }}</guid>
       
       <!-- 作者信息 -->
-      {{ with .Site.Author.name }}
+      {{ with .Site.Params.Author }}
       <author>{{ $.Site.Author.email | default "noreply@example.com" }} ({{ . }})</author>
       {{ end }}
       
