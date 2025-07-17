@@ -15,6 +15,7 @@ code: true        # 是否有程式碼
 ![圖 2](https://tux24.xyz/articles/mediterranean-sea/images/2.jpg)
 
 你看！是地中海欸！
+
 _拍攝日期：2025-05-31_
 
 （我人生第一次看到地中海☺️）
