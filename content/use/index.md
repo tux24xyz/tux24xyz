@@ -18,7 +18,7 @@ _最後更新：2025-06-30_
 我喜歡的這些工具其實多少有些共通點（當然不是大家都符合），例如：
 
 1. [是自由軟體](https://wiwi.blog/blog/your-computer-is-not-yours)
-2. It's Based 註：關於這點我之後會寫文章說明
+2. [It's Based](https://tux24.xyz/articles/based)
 3. 重視隱私
 4. 我覺得好用
 5. 我[認同](https://wiwi.blog/blog/seeking-approval)的人在用，所以我也用
@@ -31,7 +31,7 @@ _（沒錯！真．宅男說出的 `wiwi` 會自帶等寬字體和底色！）_
 
 ### 💾 作業系統
 
-* [Nobara Linux](https://nobaraproject.org/) - 玩遊戲用，但是不玩遊戲也能用，我的主力系統。btw It's bloat for those who don't play video games or just minimalist.
+* [Nobara Linux](https://nobaraproject.org/) - 玩遊戲用，但是不玩遊戲也能用，我的主力系統。沒有很 [Based](https://tux24.xyz/articles/based) 我知道
 * [Linux Mint](https://linuxmint.com/) - 最容易用的 Linux 發行版，我裝在沒有要拿來玩遊戲的次要電腦上
 * [Arch Linux](https://archlinux.org/) - 目前沒在用，天天處理電腦問題太麻煩了。之後筆電可能會考慮裝 Arch  +  WM，就像我以前（一年多前）那樣
 * Debian - 我的伺服器（現在這個網站用的）上運行的作業系統。具體而言是 Debian 12
