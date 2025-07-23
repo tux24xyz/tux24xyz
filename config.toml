@@ -36,7 +36,7 @@ style = "doom-one2"
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
-  customCSS = ["custom.css"]
+  # customCSS = ["custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
