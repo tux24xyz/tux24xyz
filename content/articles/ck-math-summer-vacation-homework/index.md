@@ -20,7 +20,7 @@ code: true        # 是否有程式碼
 
 看到最下面的「報告請用 Word 編輯」了嗎？
 
-我打算用 LibreOffice Writer 做這份作業（因為我不會 LaTex 🤦‍♂️），如果老師不接受的話，我就丟我寫的「[論點](https://tux24.xyz/articles/why-should-you-use-open-format-\?/)」 給他。
+我打算用 LibreOffice Writer 做這份作業（因為我不會 LaTex 🤦‍♂️），如果老師不接受的話，我就丟我寫的「[論點](https://tux24.xyz/articles/why-should-you-use-open-format)」 給他。
 
 # 話說那個作業 ...
 
