@@ -16,7 +16,7 @@ pagerSize = 20
 [service]
 
 [markup.highlight]
-style = "github-dark"
+style = "doom-one2"
 
 [params]
   author = "tux24"
