@@ -33,19 +33,19 @@ _最後更新：2025-07-23_
 👀 最近看的╱聽的╱讀的
 
 * 📖 卡夫卡《審判》，姬健梅譯。
-* 🟰❤️ [《愛與數學》](https://tux24.xyz/articles/ck-math-summer-vacation-homework/)
+* 🟰❤️ [《愛與數學》](https://tux24.xyz/articles/ck-math-summer-vacation-homework/)。
 * 🧃 Juice WRLD 的五張錄音室專輯，每張都聽了快 100 遍。
 * 🧃 當然還有他的 leaks，我聽的量不多就是了。
 * 🐐 Tame Impala 的四張錄音室專輯，都超好聽，不過目前最喜歡的還是 _Currents_，還沒有買實體 CD。
 
-	我在日本的五天都在聽這四張專輯
+	我在日本的五天都在聽這四張專輯。
 
 	我剛才才覺得 Lonerism 的專輯封面有點眼熟，原來是在盧森堡宮花園，我這次到巴黎也有去欸，但我當時還沒聽過這張專輯，所以不算遺憾。又多了下次可以去朝聖的點。
-	
-* 💿️ 真．女神轉生 IV 的原聲帶，_battle-b2_ 聽 100 遍都不會膩
+
+* 💿️ 真．女神轉生 IV 的原聲帶，_battle-b2_ 聽 100 遍都不會膩。
 * 🥛 Milk outside the bag of milk ... 的原聲帶，_I'll be here for a while_ 是絕佳的作業音樂。Steam 上有免費的原聲帶可以直接[下載](https://tux24.xyz/articles/download-it-dont-stream-it/)，沒有 DRM。
-* 我更新這篇文章的時候正在聽 Denzel Curry 的 _TA13OO_
-*  好一陣子沒有看動畫/漫畫/電影/連續劇了，暑假有時間要多看一點。
+* 我更新這篇文章的時候正在聽 Denzel Curry 的 _TA13OO_。
+* 好一陣子沒有看動畫/漫畫/電影/連續劇了，暑假有時間要多看一點。
 
 📑 學業
 
@@ -61,7 +61,7 @@ _最後更新：2025-07-23_
 * 🕹️ 現在正在玩：
     1. ⚔️ Slay the Spire：可以說是我玩過「遊戲性」最好的遊戲。
     2. 🚭️ Hookah Haze：玩起來很療癒，美術 5/5，美中不足的是簡中版字體我覺得有點醜。
-    3. Battlefield 4：只玩戰役。DRM 太噁心，不推
+    3. Battlefield 4：只玩戰役。DRM 太噁心，不推。
     4. 🛂 Papers, please：玩了三天（遊戲裡的）後發現這是個比手速和眼力的困難遊戲（對我來說）。
     5. 😁 Buckshot Roulette：超過兩個人的遊戲體驗不好，被集火根本沒得反擊。就算是兩人遊戲，也有機會被 OTK (One-Turn Kill) 。不過還是很好玩。
     6. 命運石之門：我剛開始玩，不要暴雷我。Tips 系統（尤其是它的翻譯，還有注音索引欸🤣）好有趣。
