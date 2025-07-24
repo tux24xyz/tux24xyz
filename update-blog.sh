@@ -106,6 +106,15 @@ ssh "$VPS_USER@$VPS_HOST" << 'EOF'
     log_info "切換到網站目錄..."
     cd /tux24xyz
     
+    # 檢查 public 是否被 Git 追蹤，如果是則移除追蹤
+    if git ls-files --error-unmatch public/ >/dev/null 2>&1; then
+        log_warning "發現 public 目錄被 Git 追蹤，正在移除..."
+        git rm -r --cached public/ 2>/dev/null || true
+        echo "public/" >> .gitignore
+        git add .gitignore
+        git commit -m "Remove public directory from Git tracking" || log_info "沒有變更需要提交"
+    fi
+    
     # 備份當前 public 目錄（如果存在且不為空）
     if [ -d "public" ] && [ "$(ls -A public 2>/dev/null)" ]; then
         BACKUP_NAME="public_backup_$(date +%Y%m%d_%H%M%S)"
@@ -113,6 +122,10 @@ ssh "$VPS_USER@$VPS_HOST" << 'EOF'
         cp -r public "$BACKUP_NAME"
         log_success "備份完成"
     fi
+    
+    # 重置任何對 public 的本地修改
+    git checkout -- . 2>/dev/null || true
+    git clean -fd 2>/dev/null || true
     
     log_info "拉取最新代碼..."
     git pull origin main
