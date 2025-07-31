@@ -54,12 +54,12 @@ style = "doom-one2"
   url = "https://github.com/tux24xyz/"
 
 [[params.social]]
-name = "RSS"
-icon = "fa-solid fa-rss fa-2x"
-weight = 2
-url = "https://tux24.xyz/index.xml"
-rel = "alternate"
-type = "application/rss+xml"
+  name = "RSS"
+  icon = "fa-solid fa-rss fa-2x"
+  weight = 2
+  url = "https://tux24.xyz/index.xml"
+  rel = "alternate"
+  type = "application/rss+xml"
 
 # Menu links
 [[menu.main]]
@@ -86,5 +86,9 @@ type = "application/rss+xml"
   name = "標籤"
   weight = 6
   url = "tags/"
+[[menu.main]]
+  name = "聯絡我"
+  weight = 7
+  url = "contact/"
 
 
