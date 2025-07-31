@@ -45,13 +45,16 @@ code: true        # 是否有程式碼
 ## 冷門程度：⭐️⭐️⭐️
 
 ### 逆轉裁判
+### 真．女神轉生
 
 ## 冷門程度：⭐️⭐️⭐️⭐️
 
-### Milk inside/outside a bag of milk … 系列
+### Milk inside/outside a bag of milk … 
+### Hookah Haze
 ### Linux
 
 ## 冷門程度：⭐️⭐️⭐️⭐️⭐️
 
 ### World's End
 ### NUZB
+### Nobara Linux
