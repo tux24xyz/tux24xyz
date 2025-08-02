@@ -28,21 +28,21 @@ code: true        # 是否有程式碼
 
 首先打開 Name Cheap 的 DNS 管理頁面：
 
-![1](/home/tux24/tux24xyz/content/articles/build-your-own-website-2/images/1.jpg)
+![1](images/1.jpg)
 
 通常 DNS Record 這邊域名商會幫你預先填好一些東西，把它們全部刪掉（按垃圾桶）。
 
 然後我們到主機的管理頁面，點下去。
 
-![2](/home/tux24/tux24xyz/content/articles/build-your-own-website-2/images/2.jpg)
+![2](images/2.jpg)
 
 _我有必要這麼詳細的教你怎麼點嗎 ..._
 
-![3](/home/tux24/tux24xyz/content/articles/build-your-own-website-2/images/3.jpg)
+![3](images/3.jpg)
 
 看到你的 IPv4 和 IPv6 位址了嗎？我們要把它們複製起來，貼到域名商那邊：
 
-![1](/home/tux24/tux24xyz/content/articles/build-your-own-website-2/images/1.jpg)
+![1](images/1.jpg)
 
 我已經貼好了（當然），規則很簡單：A Record 貼 IPv4 位址，AAAA Record 貼 IPv6 位址，都貼在 Value 那欄；Host 值各填一個 `*` 和你的域名，像我就填 `tux24.xyz`。
 
@@ -56,6 +56,6 @@ ping 你的域名
 
 如果輸出像是這樣的話：
 
-![4](/home/tux24/tux24xyz/content/articles/build-your-own-website-2/images/4.jpg)
+![4](images/4.jpg)
 
 代表你成功了！
