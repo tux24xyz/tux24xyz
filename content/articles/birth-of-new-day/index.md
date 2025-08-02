@@ -31,7 +31,7 @@ code: true        # 是否有程式碼
 
 之後有機會再寫一篇文章探討這個，光是專輯封面我就有很多可以寫的了。
 
-{{<notice 言歸正傳>}}言歸正傳{{</notice>}}
+{{<notice warning>}}言歸正傳{{</notice>}}
 
 我好愛這張專輯啊，目前同樣喜歡的電子樂專輯是這張：[_Selected Ambient Works Volume II_](https://aphextwin.bandcamp.com/album/selected-ambient-works-volume-ii-expanded-edition)。
 
