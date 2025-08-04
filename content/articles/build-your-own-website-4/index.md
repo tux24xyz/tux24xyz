@@ -75,3 +75,11 @@ certbot --nginx --register-unsafely-without-email
 你必須要看一下[這篇文章的最後一段](https://landchad.net/basic/certbot/)，我懶得翻譯了。
 
 _提醒你：剛才太心急執行到第一個指令的人其實你可以按 Ctrl + C 強迫中止指令，記得我上一篇文章是怎麼寫的嗎？_
+
+---
+
+到這裡，基本設定已經完成，我將會在接下來的教學中深入的教你如何使用 [Hugo](https://gohugo.io/) 做出一個靜態的個人網站。
+
+基本設定已經完成的意思是：你可以參考 [](https://landchad.net)，或是網路上的其他教學開始在你的主機上架設各種服務，那些你原本依賴雲端的服務，例如自己的 VPN、自己的搜尋引擎、自己的 E-mail 伺服器等等 ...
+
+想成為[網路上的地主而非佃農](https://wiwi.blog/blog/internet-peasant)，這步是必要的。不過我目前沒有很多時間寫這些教學，就留給你自己研究了😉
