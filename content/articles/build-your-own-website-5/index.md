@@ -312,7 +312,7 @@ code: true        # 是否有程式碼
 
 最上面用分隔線圍起來的東西叫做 yaml frontmatter，你們可以自己研究要怎麼寫，不過我覺得我的模板已經夠用。之後我還會再提到，這裡就不解釋原理了。
 
-至於分隔線下的 Markdown 文章要怎麼寫，建議你們去看這個教學影片，進階語法之後邊寫邊學就好。
+至於分隔線下的 Markdown 文章要怎麼寫，建議你們去看[這個教學影片](https://wiwi.video/w/m2rLULr2rtrroZkoLEDfHy)，進階語法之後邊寫邊學就好。
 
 然後回到　yourwebsite/ 下，輸入指令：
 

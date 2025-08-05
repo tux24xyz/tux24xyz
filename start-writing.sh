@@ -16,7 +16,7 @@ NC='\033[0m' # No Color
 
 # 配置變數
 TEMPLATE_DIR="templates"          # 模板目錄
-POSTS_DIR="../articles"         # 文章目錄
+POSTS_DIR="./content/articles"         # 文章目錄
 CONFIG_FILE=".writing-config"     # 配置文件
 
 # 預設標籤（你可以修改這個列表）
@@ -255,28 +255,6 @@ organize_article_files() {
     log_success "文章已組織到資料夾: $folder_path/index.md"
 }
 
-# 函數：開啟編輯器
-#open_editor() {
-    #log_success "文章創建完成: $ARTICLE_FILEPATH"
-    
-    # 嘗試不同的編輯器
-    #if command -v flatpak run com.zettlr.Zettlr &> /dev/null; then
-      #  log_info "正在用 Zettlr 開啟文章..."
-     #   flatpak run com.zettlr.Zettlr "$ARTICLE_FILEPATH"
-    #elif command -v nano &> /dev/null; then
-       # log_prompt "按 Enter 用 nano 開啟文章，或 Ctrl+C 取消"
-      #  read
-     #   nano "$ARTICLE_FILEPATH"
-    #elif command -v vim &> /dev/null; then
-       # log_prompt "按 Enter 用 vim 開啟文章，或 Ctrl+C 取消"
-      #  read
-     #   vim "$ARTICLE_FILEPATH"
-    #else
-   #     log_warning "沒有找到合適的編輯器"
-  #      log_info "請手動開啟文件: $ARTICLE_FILEPATH"
- #   fi
-#}
-
 # 函數：保存配置
 save_config() {
     echo "LAST_TAGS=($SELECTED_TAGS_YAML)" > "$CONFIG_FILE"
@@ -334,10 +312,7 @@ main() {
     
     # 保存配置
     save_config
-    
-    # 開啟編輯器
-    #open_editor
-    
+
     echo -e "\n${GREEN}🎉 寫作準備完成！祝你寫作愉快！${NC}"
 }
 
