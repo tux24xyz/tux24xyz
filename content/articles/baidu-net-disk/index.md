@@ -14,7 +14,7 @@ code: true        # 是否有程式碼
 
 我昨天（2025-07-16）發現了這個[真．女神轉生 4 ＆ 真．女神轉生 4 Final 的漢化版下載連結 ](https://pan.baidu.com/s/1GpAVtNH54ga45wPqiR6QTw?pwd=52d4#list/path=%2Fsharelink1101614223008-589333116504388%2F%E7%9C%9F%E5%A5%B3%E7%A5%9E%E8%BD%AC%E7%94%9F%E2%85%A3%20Double%20Hero%20Pack&parentPath=%2Fsharelink1101614223008-589333116504388)，但是檔案在百度網盤裡，我只好放棄。
 
-![這是百度網盤的介面，滿中國的](https://tux24.xyz/articles/baidu-net-disk/images/1.png)
+![這是百度網盤的介面，滿中國的](https://tux24.xyz/articles/baidu-net-disk/images/1.jpg)
 
 要想在百度網盤下載檔案，需要有百度帳號，並且安裝好百度網盤的客戶端[^1]才行，真麻煩，而且又危險。
 [^1]: 沒想到百度網盤的客戶端有 rpm 和 deb 安裝包，可以在 Linux 上面原生運行。我不建議你安裝，所以我就不放連結了，

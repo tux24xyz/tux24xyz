@@ -272,7 +272,7 @@ fi
 
 你只需要複製這一大串文字，貼到文字編輯器裡（記得 micro 嗎？），存成 `.sh` 檔，然後在終端機內輸入 `./update-blog.sh` 按 Enter 運行腳本就行了。
 
-Windows 預設是沒有 Bash 的，你要自己想辦法（或許你可以考慮切換到 Linux）。[^2]
+Windows 預設是沒有 Bash 的，你要自己想辦法（或許你可以考慮[切換到 Linux](https://wiwi.blog/blog/your-computer-is-not-yours)）。[^2]
 
 [^2]: 你可以找 LLM 幫你
 

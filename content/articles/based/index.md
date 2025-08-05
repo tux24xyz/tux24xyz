@@ -43,7 +43,7 @@ code: true        # 是否有程式碼
 
 讓我舉一些"Based"程度由淺入深的例子吧：
 
-* 寫這篇文章：用 Microsoft Word 寫 < 用 LibreOffice Writer 寫 < 像我現在這樣用 [ghostwriter](https://ghostwriter.kde.org/) 之類的 Markdown 編輯器寫 < 用 Vim/Emacs 在終端機裡面寫 < 寫在紙上（不過這樣你可能讀不到）
+* 寫這篇文章：用 Microsoft Word 寫 < 用 LibreOffice Writer 寫 < 像我現在這樣用 [ghostwriter](https://tux24.xyz/articles/ghostwriter) 之類的 Markdown 編輯器寫 < 用 Vim/Emacs 在終端機裡面寫 < 寫在紙上（不過這樣你可能讀不到）
 * 聽音樂：串流 < [下載](https://tux24.xyz/articles/download-it-dont-stream-it/) < 用 CD < 用黑膠唱片/卡帶
 * 閱讀：看電子書，線上看 = 聽有聲書，線上聽 < 看電子書，下載有 [DRM](https://wiwi.blog/blog/drm-doesnt-work) 的回來讀 = 聽有聲書，下載有 DRM 的回來聽 < 看電子書，下載無 DRM 的回來讀 = 聽有聲書，下載無 DRM 的回來聽 < 你直接讀實體書不就好了？
 * 手機作業系統：iOS < Android < Graphene OS 或其他開源的作業系統
