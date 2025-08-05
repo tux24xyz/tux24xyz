@@ -1,8 +1,0 @@
-在今天的文章,我會教你如何使用SearchBot來加密你的網站和你的電腦的通訊,讓你的網站能力用上HTTPS協議,如果不這麼做的話應該被人會想要看你的網站畢竟現在是2025年。
-首先,在你的主機上輸入指令,APT,空格,Install,空格,Python3,Dash,DirtBot,DashEndings,
-然後接下來運行指令,SearchBot,空格,Dash,DashEndings,這個指令輸入完之後,它應該會問你的Email。
-這個Email的作用是每三個月它會寄一封信給你,讓你去重新更新你的HTTPS,重新更新你的加密評證,
-但你也可以把它設定成會自動重新更新,如果你就懶得每三個月回上去看的話,你可以加上第二個參數,也就是Dash,DashRegister,DashUnsafely,DashWithout,DashEmail。
-完成後,它會問你要加密那一個譽名,你就只要按Enter就好,不要管它。
-然後等一下它會問你NoRedirect還是Redirect你就按2,好了這樣就成功了。
-然後它會問你NoRedirect還是DashWithout,DashWithout,DashWithout,DashWithout,DashWithout,DashWithout,DashWithout,
