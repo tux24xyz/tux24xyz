@@ -12,7 +12,7 @@ math: false       # 是否啟用數學公式
 code: true        # 是否有程式碼
 ---
 
-大約是上上禮拜的事，Zettlr在更新後突然打不出中文了，我就開始尋找替代品。我最初是看到了 Obsidian，但它是專有軟體而且我認為不夠 [Based](https://tux24.xyz/articles/based)。
+大約是上上禮拜的事，Zettlr 在更新後突然打不出中文了，我就開始尋找替代品。我最初是看到了 Obsidian，但它是專有軟體而且我認為不夠 [Based](https://tux24.xyz/articles/based)。
 
 當天我用 Vim 寫了開放格式那篇文章，覺得還是效率還是太低了（因為要一直切輸入法）。最終我不知怎的找到了我現在用的 [Ghostwriter](https://ghostwriter.kde.org/) 這個編輯器，現在已經愛上它了。
 
