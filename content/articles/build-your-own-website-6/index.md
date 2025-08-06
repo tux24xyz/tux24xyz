@@ -27,14 +27,14 @@ code: true        # 是否有程式碼
 
 ## 搞定 Git
 
-{{<notice tips>}}注意，以下內容如果你沒有先看過 git 教程再來的話會有點像咒語，出事我不負責{{</notice>}}
+{{<notice tip>}}注意，以下內容如果你沒有先看過 git 教程再來的話會有點像咒語，出事我不負責{{</notice>}}
 
 接著你需要把 Git 的設定搞定：
 
 1. 安裝 Github-cli（我上一篇文章有叫你裝了）
 2. 登入 Github 帳號：
 
-	```
+	```bash
 	gh auth login
 	```
 	
@@ -42,19 +42,19 @@ code: true        # 是否有程式碼
 
 3. 連結 Git 和 GitHub[^1]，輸入指令：
 
-	```
+	```bash
 	git remote add origin "你的專案 git 連結"
 	```
 	
 	那個"連結"要如何獲得呢？請你打開你的專案頁面找到右上角的綠色 Code，下拉選單複製 https 連結，例如：
 	
-	```
+	```bash
 	https://github.com/tux24xyz/tux24xyz.git
 	```
 	
 4. 提交 & 推送程式碼：
 
-	```
+	```bash
 	git commit -m "測試測試"
 	git push origin main
 	# 第一次應該會報錯
@@ -68,7 +68,7 @@ code: true        # 是否有程式碼
 
 所以，我提供你一個我叫 Claude.ai 寫出來的腳本，它幫我省了超多時間：
 
-```
+```bash
 #!/bin/bash
 
 # 部落格快速更新腳本
@@ -286,7 +286,7 @@ Windows 預設是沒有 Bash 的，你要自己想辦法（或許你可以考慮
 
 1. 輸入指令：
 
-	```
+	```bash
 	ssh-keygen
 	# 選每個預設選項，password 留空
 	```
@@ -297,7 +297,7 @@ Windows 預設是沒有 Bash 的，你要自己想辦法（或許你可以考慮
 
 2. 輸入指令：
 
-	```
+	```bash
 	ssh-copy-id root@你的域名
 	```
 	
@@ -305,7 +305,7 @@ Windows 預設是沒有 Bash 的，你要自己想辦法（或許你可以考慮
 	
 3. 測試：
 
-	```
+	```bash
 	ssh root@你的域名
 	```
 	
@@ -313,7 +313,7 @@ Windows 預設是沒有 Bash 的，你要自己想辦法（或許你可以考慮
 	
 4. 除錯：
 
-	```
+	```bash
 	chmod 700 ~/.ssh/
 	chmod 644 ~/.ssh/id_rsa.pub
 	chmod 600 ~/.ssh/id_rsa
@@ -326,7 +326,7 @@ Windows 預設是沒有 Bash 的，你要自己想辦法（或許你可以考慮
 
 好了，來修改你的腳本吧：
 
-```
+```bash
 # 配置變數（請根據你的設定修改）
 VPS_USER="xxxxxx" # 應該換成 root
 VPS_HOST="xxxxxxx" # 換成你的域名
@@ -341,7 +341,7 @@ GITHUB_REPO="xxxxxxxxxxx" # 格式是這樣的："你的 GitHub 用戶名/你的
 
 輸入指令：
 
-```
+```bash
 ssh root@yourdomain
 cd  /var/www
 rm -rf yoursite

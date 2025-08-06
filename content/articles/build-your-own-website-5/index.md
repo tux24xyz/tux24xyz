@@ -42,7 +42,7 @@ Linux 用戶我不教了，你不可能不會吧？
 
 Mac 用戶要先安裝叫做 homebrew 的東西，然後：
 
-```
+```bash
 brew install hugo git github-cli micro
 # 應該是這樣吧，其實我沒有用過 Mac OS
 ```
@@ -53,7 +53,7 @@ Windows 用戶就用你們原本習慣的方式安裝軟體吧，我衷心建議
 
 輸入以下指令，我對 Linux 用戶的建議是在你的家目錄輸入：
 
-```
+```bash
 hugo new site yourwebsite # 記得替換 ...
 cd yourwebsite
 git init
@@ -64,7 +64,7 @@ git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
 
 然後你要修改你的網站基礎設定，下面放的是 hugo-coder 主題作者提供的極簡範例，更多調整細節請看[這裡](https://github.com/luizdepra/hugo-coder/blob/main/docs/configurations.md)：
 
-```
+```toml
 baseurl = "http://www.example.com"
 title = "johndoe"
 theme = "hugo-coder"
@@ -278,13 +278,13 @@ _（這樣好像在玩解謎遊戲喔，我突然想到前幾年玩過的一個�
 
 所以讓我們用二號方法建立測試用文章吧：
 
-```
+```bash
 hugo new articles/helloworld/index.md
 ```
 
 加入以下內容，
 
-```
+```markdown
 ---
 title: "架網站教學 Pt.5 - Hugo - 測試"
 date: 2025-08-05T09:26:25+08:00 # 撰寫時間
@@ -316,7 +316,7 @@ code: true        # 是否有程式碼
 
 然後回到　yourwebsite/ 下，輸入指令：
 
-```
+```bash
 hugo server
 ```
 
