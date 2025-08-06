@@ -2,7 +2,7 @@
 title: "我所使用的各種工具和一些有的沒的"
 date: 2025-06-18T18:19:00+08:00 # 撰寫時間
 publishDate: 2025-06-25T06:00:00+08:00  # 預約之後發布
-lastmod: 2025-06-30
+lastmod: 2025-08-06
 draft: false
 
 
@@ -12,7 +12,7 @@ math: false       # 是否啟用數學公式
 code: true        # 是否有程式碼
 ---
 
-_最後更新：2025-06-30_
+_最後更新：2025-08-06_
 
 這篇文章會列出我有在使用 / 沒在使用 / 推薦 / 討厭的各項軟硬體。
 我喜歡的這些工具其實多少有些共通點（當然不是大家都符合），例如：
@@ -33,7 +33,7 @@ _（沒錯！真．宅男說出的 `wiwi` 會自帶等寬字體和底色！）_
 
 * [Nobara Linux](https://nobaraproject.org/) - 玩遊戲用，但是不玩遊戲也能用，我的主力系統。沒有很 [Based](https://tux24.xyz/articles/based) 我知道
 * [Linux Mint](https://linuxmint.com/) - 最容易用的 Linux 發行版，我裝在沒有要拿來玩遊戲的次要電腦上
-* [Arch Linux](https://archlinux.org/) - 目前沒在用，天天處理電腦問題太麻煩了。之後筆電可能會考慮裝 Arch  +  WM，就像我以前（一年多前）那樣
+* [Arch Linux](https://archlinux.org/) - 我的筆電目前是 Arch Linux + Hyprland，很漂亮
 * Debian - 我的伺服器（現在這個網站用的）上運行的作業系統。具體而言是 Debian 12
 
 ### 🌏 瀏覽器
@@ -45,26 +45,24 @@ _（沒錯！真．宅男說出的 `wiwi` 會自帶等寬字體和底色！）_
  
 ### 📟 終端機相關
 
-* konsole - 聽起來很遜我知道，但我在 KDE Plasma 都用這個
+* Konsole - 聽起來很遜我知道，但我在 KDE Plasma 都用這個
 * GNOME Terminal - 聽起來很遜我知道，但我在 Linux Mint 和 GNOME 都用這個
+* Kitty - Hyprland 的預設終端模擬器
 * [st](https://st.suckless.org/) - st 是 simple terminal 的縮寫。很酷的終端機模擬器，以前在筆電上的 Arch + dwm (學 Luke Smith 的) 配置中都用這個。一陣子沒用了
-* bash - 現在寫這篇文章的 Linux Mint 電腦就在用預設的 bash，還堪用。我覺得電腦預設 bash 不是問題，預設用 zsh/fish 也不算是什麼優點，換自己喜歡的 Shell 應該是使用者要做的事（說的就是我）
-* zsh - 換著不同花樣，有 Oh my zsh / 沒有 Oh my zsh 都用過了。目前懶得折騰，所以還沒裝
-* fish - 功能很多，我都數不清了，我對使用體驗的印象很不錯，但現在也懶得裝
-
-        Damn，我現在找不到我的 zsh 設定檔在哪。
-
+* bash - 今天（2025-08-06）我又把所有電腦上的 Shell 都換成 zsh 了，不過伺服器上的還是 bash
+* zsh - 目前有在用 oh-my-zsh，方便
+* fish - 功能很多，我都數不清了，我對使用體驗的印象很不錯，但現在懶得裝
 * [ranger](https://ranger.fm/) - 終端機裡的檔案管理器，偶爾用
 * [yt-dlp](https://github.com/yt-dlp/yt-dlp) - 影音下載工具，超好用
 * [FFmpeg](https://ffmpeg.org/) - 多媒體轉檔軟體，但是都到 2025 年了[還是不支援HEIF格式](https://tux24.xyz/articles/heif)
 * [pandoc](https://pandoc.org/) - 文件轉檔軟體
+* [harsh](https://tux24.xyz/articles/harsh-the-habit-tracker/) - 超棒的東西，看我文章
 
 ### 📻 媒體播放器
 
-* [mpv](https://mpv.io/) - 世界最好（用）的影片播放軟體，但我都不用。未來重回 WM 懷抱的話會考慮一下
+* [mpv](https://mpv.io/) - 世界最好（用）的影片播放軟體，但我都不用。我目前筆電上還沒有裝任何影片播放器，會考慮一下
 * [VLC Player](https://www.videolan.org/vlc/) - 世界第二好的影片播放軟體，我都用這個
-* Rhythmbox - 我對音樂播放器沒什麼研究（因為之前都用串流的），現在用這個內建的播放器來播我買的 CD
-* Tauon - 我後來找到的一個還算好用的音樂播放器
+* Tauon Music Box - 介面很漂亮，只是有點肥
 
 ### 💿️ CD Ripper
 
@@ -74,10 +72,12 @@ _（沒錯！真．宅男說出的 `wiwi` 會自帶等寬字體和底色！）_
 
 * [LibreOffice Impress](https://zh-tw.libreoffice.org/discover/impress/) - 不介紹了。老實說我覺得 Powerpoint 比較好用
 * [sent](https://tools.suckless.org/sent/) - 終端機下的極簡報軟體，還真的能用。詳情請見 [Luke Smith 影片](https://www.youtube.com/watch?v=aCLCl96eNaI)
+* 我現在正在實驗不用任何電腦軟體輔助我簡報
 
 ### 📝 筆記軟體 / 文字編輯器
 
-* [Zettlr](https://www.zettlr.com/) - Blog 上的文章都用這個寫，我主要的 Markdown 編輯器。正體中文版譯者好像是 [wiwi](https://wiwi.blog) ?
+* [Zettlr](https://www.zettlr.com/) - 不用了
+* [Ghostwriter](https://tux24.xyz/articles/ghostwriter) - 新寵，請見我寫的文章
 * [Micro](https://micro-editor.github.io/) - 終端機下的、容易使用的文字編輯器。要簡單的編輯中文內容時用這個
 * [Neovim](https://neovim.io/) - 很棒，但是用來寫中文內容實在是太痛苦了（切輸入法切到腦袋當機），我用來寫程式或英文內容剛剛好
 * [Google Colab](https://colab.research.google.com/) - 寫在這只是因為以前在資訊科技課會被強迫用
@@ -104,7 +104,8 @@ _如果你想和我聯絡的話，歡迎來信 tux24xyz@protonmail.com !_
 ### 🎨 圖片
 
 * [Flameshot](https://flameshot.org/) - 看了別人推薦剛開始用的螢幕抓圖軟體
-* Gwenview - KDE 下的圖片瀏覽器，也能做簡單的修改，我覺得很好用
+* Gwenview - KDE 下的圖片瀏覽器，也能做簡單的修改，我覺得很好用[^1]
+[^1]: 我圖片上那些塗鴉都是我用 Gwenview 內建的畫筆畫出來的，我上週才發現不能先壓縮圖片再畫，圖片居然從 100 Kb -> 1.3 Mb（我後來有壓縮了）
 
 ### 🎹 音樂製作
 
@@ -125,7 +126,7 @@ _如果你想和我聯絡的話，歡迎來信 tux24xyz@protonmail.com !_
 ### 🤖 AI
 
 * [Ollama](https://ollama.ai/) - 讓你能夠很方便地架設離線 LLM 的工具，只能在終端機裡面用
-* [Open Web UI](https://github.com/open-webui/open-webui) - 可以連結 Ollama，讓你在瀏覽器裡和 LLM 對話，介面看起來不錯。我還在研究中
+* [Open Web UI](https://github.com/open-webui/open-webui) - 可以連結 Ollama，讓你在瀏覽器裡和 LLM 對話，介面看起來不錯。
 * [GPT4ALL](https://gpt4all.org/) - 別被名字誤導了，其實就是一個一體化的離線 LLM 安裝/對話工具，介面我覺得不太好看，在我搞定 Open Web UI 之前先用這個代替
 
 ## ☁️ 雲端服務
@@ -134,12 +135,12 @@ _如果你想和我聯絡的話，歡迎來信 tux24xyz@protonmail.com !_
 
 * Dnsmasq - 可以自架 DNS 擋廣告，很有效，不過目前沒在用
 * SearXNG - 自架搜尋引擎，強烈建議每個人都架一個（架在個人網站的子域名下就可以了）
+* Yarr - 自架的極簡 RSS 閱讀器，FreshRSS 還要用到 Docker，Yarr 比較 [Based](https://tux24.xyz/articles/based)
 
 ### 💰 訂閱制服務
 
 * [Claude.ai](https://claude.ai/) - 個人覺得最好的線上語言模型，我沒付錢都覺得很好用（但是當然不如[離線 AI !](https://wiwi.blog/blog/offline-ai) ）
-* [Vultr](https://www.vultr.com/) - 我用的 Linux 主機商，這個網站就架在那台 VPS 上，花費很低
-* [Spotify](https://open.spotify.com/) - 很討厭它，但我偶爾還是會好奇某首歌的 Spotify 表現（然後被強迫聽 30 秒廣告）
+* [Vultr](https://www.vultr.com/) - 我用的 Linux 主機商，這個網站就架在那台 VPS 上，花費很低（每個月 5 美金）
 * [Protonmail](https://mail.proton.me) - 我的主要 E-mail 服務商。我還是有在用 Gmail，但我設定了轉寄讓我不用開啟 Gmail 的客戶端
 
 ## 📱 手機
@@ -159,7 +160,7 @@ _如果你想和我聯絡的話，歡迎來信 tux24xyz@protonmail.com !_
 * Organic Maps - 好用的離線地圖
 * VLC Player - 好用的影音播放程式
 * Trollstore - 透過觸發特定 iOS 版本的特定漏洞，來達到免越獄、免重簽就能側載第三方 ipa 的目的，超好用。我本來不知道這東西的存在，多虧了 [ivon 的這篇文章](https://ivonblog.com/posts/ios-trollstore/)才改變了我的人生
-* YouTube w/ uYouPlus - 乾淨的 YouTube，用 Trollstore 裝的。本來想在 iPhone 上看沒廣告的 YouTube 只能用 [Invidious](https://invidious.io/) 或是 Brave 瀏覽器，現在用這個體驗好多了。不過這會不會也是我浪費許多時間的原因......
+* YouTube w/ uYouPlus - 乾淨的 YouTube，用 Trollstore 裝的。本來想在 iPhone 上看沒廣告的 YouTube 只能用 [Invidious](https://invidious.io/) 或是 Brave 瀏覽器，現在用這個體驗好多了。不過這會不會也是我浪費許多時間的原因......(2025-08-06 更新：我把它給刪除了，詳情請見[這篇](https://tux24.xyz/articles/low-information-diet/)）
 * Delta - GBA 模擬器，螢幕太小了不好玩（App Store 就有）
 * PPSSPP - PSP 模擬器，螢幕太小加上按鍵＋手指擋住螢幕，不好玩（推薦用電腦版）
 * Retroarch - 其實裝這個就不用裝 PPSSPP，用 Trollstore 裝第三方 ipa 還是有數量上限，失策。但遊戲存檔的轉移問題讓我懶得處理，就這樣吧
@@ -183,6 +184,8 @@ _如果你想和我聯絡的話，歡迎來信 tux24xyz@protonmail.com !_
 現今市面上的電子書作業系統都不自由（可能除了 PineNote，我沒研究，總之在台灣很難買到），買到的書也多半有 [DRM](https://wiwi.blog/blog/drm-doesnt-work)，這是個大缺點，不越獄就用不了。
 
 所以還是讀實體書最好。
+
+（2025-08-06 的我：知道了 KOReader 的存在後手癢想要買一台 Kobo）
 
 ## 🖥️ 電腦硬體
 
@@ -228,6 +231,16 @@ Disk: 500GB
 
 #### 1 號筆電
 
+Operating System: Arch Linux
+
+Processors: Intel i7-3520M (4) @ 3.60 GHz
+
+Graphic Processor: GeForce GT 640M LE
+
+Memory: 12GB
+
+Disk: 1000GB
+
 ### 外部硬體
 
 #### 1 號電腦
@@ -255,4 +268,4 @@ Screen: AOC, 27 inches, 2K / 我家的電視螢幕
 ## 🎧️耳機
 
 * Razer Hammerhead True Wireless 2nd Generation
-* Philips TAH5209 （市長獎贈品）
+* Philips TAH5209

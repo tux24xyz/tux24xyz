@@ -4,7 +4,6 @@ date: 2024-01-31T21:40:23+08:00
 publishDate: 2025-06-26T06:00:00+08:00
 lastmod: 2025-07-09
 draft: false
-
 ---
 
 _最後更新：2025-07-09_
@@ -99,7 +98,7 @@ AVAILABLE_TAGS=(
 我的自我介紹寫得有夠爛的，你直接找我聊天還差不多。
 
 
-我的 Email: tux24xyz@protonmail.com
+我的 Email： tux24xyz@protonmail.com
 
 我的 Signal 用戶名稱： \@tux24.99
 

@@ -10,7 +10,7 @@ _最後更新：2025-08-01_
 
 我的[自我介紹](https://tux24.xyz/about)寫得有夠爛的，你直接找我聊天還差不多。
 
-我的 Email: tux24xyz@protonmail.com
+我的 Email：tux24xyz@protonmail.com
 
 我的 Signal 用戶名稱： \@tux24.99
 
