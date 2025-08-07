@@ -18,7 +18,7 @@ code: true        # 是否有程式碼
 
 讓我們看看比較「低級」的藝術，例如文學：
 
-![]()
+![kafka-der-process](images/der-process.jpg)
 
 我們在看這本書時要如何進入卡夫卡創造的世界？
 
