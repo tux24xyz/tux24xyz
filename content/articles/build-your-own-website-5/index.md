@@ -141,7 +141,7 @@ style = "github-dark"
 
 我知道，你可能會想要看我的：
 
-```
+```toml
 baseURL = 'https://tux24.xyz/' # 網站域名，這個很重要
 languageCode = 'zh-TW' # 看你想寫哪國語言的文章
 title = "tux24 的個人網站" # 網站左上角的標題

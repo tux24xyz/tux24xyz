@@ -43,6 +43,7 @@ code: true        # 是否有程式碼
 3. 連結 Git 和 GitHub[^1]，輸入指令：
 
 	```bash
+	cd ~/yourwebsite # 確保你人在網站目錄下
 	git remote add origin "你的專案 git 連結"
 	```
 	
