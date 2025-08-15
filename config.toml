@@ -1,5 +1,5 @@
 baseURL = 'https://tux24.xyz/'
-languageCode = 'zh-TW'
+languageCode = 'zh-Hant'
 title = "tux24 的個人網站"
 theme = "hugo-coder"
 
