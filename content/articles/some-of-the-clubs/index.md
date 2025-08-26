@@ -12,10 +12,9 @@ math: false       # 是否啟用數學公式
 code: true        # 是否有程式碼
 ---
 
-剛在建中官網看到這個：
+剛在[建中官網](https://www.ck.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/KG5mY0d9355/68a2769a20be33a3894e4ac9)看到這個：
 
 ![新生選社的相關說明截圖](images/some-of-the-clubs.jpg)
 
-3/68 算是部分，Alright[^1]。
+3/68 算是部分，好吧。
 
-[^1]: 之所以寫「Alright」不寫「好吧」是因為中央 C ... 好吧 Central Cee。
