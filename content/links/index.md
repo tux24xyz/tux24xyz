@@ -31,6 +31,7 @@ _最後更新：2025-08-19_
 * [喵's StackHarbor](https://alynx.one)：_Whisper to the World_ 我前年在研究如何用 linux 做音樂的時候看到了他的[這篇文章](https://sh.alynx.one/posts/Run-PulseAudio-on-Top-of-JACK/)，幫了我很大的忙。這個 Blog 同時有讀起來很輕鬆的生活分享文和很硬的技術文
 * [JN 的部落格](https://blog.giveanornot.com)：雲端工程師，偽娘。是我很喜歡的自省 + 生活分享 + 一點點技術內容（有點像這裡？）部落格。
 * [雷歐 Revol.C 的部落格](https://revolc.blog/)：前端工程師，音樂人，基督徒。Blog 的文筆對我來說有一種親切感。
+* [小麥的第二世界](https://blog2.worldofwheat.cc/)：資工系大學生，資訊能力看起來很強的樣子，有技術文也有自省文和生活分享。
 * [陳建中｜Tân Kiàn-tiong](https://kiantiong.com/)：文章大部分內容和台語字型和字典有關；當然，和上面所有人一樣是[「自由」](https://tux24.xyz/articles/freedom-day)這邊的人[^1]
 [^1]: 或者說是[真．宅男](https://wiwi.blog/docs/tech/fake-vs-real-tech-nerd)
 
