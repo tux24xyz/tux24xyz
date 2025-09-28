@@ -18,11 +18,11 @@ code: true        # 是否有程式碼
 
 # 我們創造工具，工具塑造我們
 
-幾天前讀到[編程隨想的這篇文章](https://program-think.blogspot.com/2012/02/microblog-and-time-management.html)，在討論為何他不使用 Microblog 平台（像是 X、對岸的新浪微博）而是在自己的網站上寫作。我就不重複他的話了，請你有耐心的讀完原文再回來。
+幾天前讀到[編程隨想的這篇文章](https://program-think.blogspot.com/2012/02/microblog-and-time-management.html)和[這篇文章](https://program-think.blogspot.com/2015/02/Is-Blogging-Dead.html)，在討論為何他不使用 Microblog 平台（像是 X、對岸的新浪微博）而是在自己的網站上寫作。我就不重複他的話了，請你有耐心的讀完原文再回來。
 
 他在最後提到的「為何大多數人不再寫作了的原因」很值得我們反思，與 [Seth Godin 的觀點](https://seths.blog/2025/09/no-time/)吻合，我們不再寫作不是因為我們沒有時間或是金錢[^1]，而是因為：**我們不想、也沒有能力寫出不膚淺的文章了。**
 
-就像 McLuhan 的名言：**「我們創造工具，工具塑造我們」**，我們只要每天滑 Microblog，最後寫出來的東西也只會長得一樣簡短、碎片化，更何況是我們在編程隨想寫這篇文章的十年後（！）看的東西更糟糕。我們一直待在[心理舒適區](https://program-think.blogspot.com/2015/12/Hobbies-and-Interests.html)裡、不動用[大腦的「第二系統」](https://program-think.blogspot.com/2019/03/Why-Thinking-Hard-So-Hard.html)[^2]，就像身體不運動能力會退步一樣，大腦的思考能力也需要訓練，不訓練則退步，到最後我們便喪失了思考並寫出長篇、有內容的文章的能力。
+就像 Marshall McLuhan 的名言：**「我們創造工具，工具塑造我們」**，我們只要每天滑 Microblog，最後寫出來的東西也只會長得一樣簡短、碎片化，更何況是我們在編程隨想寫這篇文章的十年後（！）看的東西更糟糕。我們一直待在[心理舒適區](https://program-think.blogspot.com/2015/12/Hobbies-and-Interests.html)裡、不動用[大腦的「第二系統」](https://program-think.blogspot.com/2019/03/Why-Thinking-Hard-So-Hard.html)[^2]，就像身體不運動能力會退步一樣，大腦的思考能力也需要訓練，不訓練則退步，到最後我們便喪失了思考並寫出長篇、有內容的文章的能力。
 
 我在開學後有了一些自身的經驗可供分享：
 
