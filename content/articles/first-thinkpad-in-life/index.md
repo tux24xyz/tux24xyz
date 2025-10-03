@@ -14,4 +14,6 @@ code: true        # 是否有程式碼
 
 ![我的新 Thinkpad](images/thinkpad.jpg)
 
-之前運氣好只花了台幣 4200 就獲得一台狀況良好的二手 Thinkpad L14 Gen2，今天終於給它裝上了 Nobara Linux，明天帶去建電（[建中電子計算機研習社](https://www.ckefgisc.org/)）上課！
+之前運氣好只花了台幣 4200 就獲得一台狀況良好的二手 Thinkpad L14 Gen2，今天終於給它裝上了 Nobara Linux，明天帶去建電（[建中電子計算機研習社](https://www.ckefgisc.org/)）上課[^1]！
+
+[^1]: 2025-10-03 註：後來那天因為電腦教室設備故障緊急停課🥲
