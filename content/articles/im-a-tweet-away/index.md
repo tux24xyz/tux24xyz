@@ -19,3 +19,5 @@ code: true        # 是否有程式碼
 這首歌是在 2018-02-18 時錄音的，根據 genius 上面的資料，Juice WRLD 把他當時的電話號碼公開讓粉絲能直接跟他通話，Twitter 應該也有 DM 功能可以讓粉絲找到他。
 
 ... 而我也一樣，雖然我不用 Twitter（現在叫 X），但是我把我有在使用的聯絡方式都放在 [`/contact`](https://tux24.xyz/contact) 上了，你可以透過寫信或是通訊軟體私訊聯絡上我。就像[這顆小石子](https://tux24.xyz/articles/kicking-little-rocks)和 Juice WRLD，我不會一直都在，所以如果有任何事情，不要猶豫，今天就來找我吧。
+
+[^1]: 這首歌的原始檔名是「02」，一直到現在都沒有正式的名稱，「Toxic Humans」是粉絲取的名字
