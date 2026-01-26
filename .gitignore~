@@ -1,6 +1,3 @@
-.writing-config
-
-
 # Hugo
 /public/
 /resources/_gen/
@@ -16,8 +13,6 @@ Thumbs.db
 
 # Logs
 *.log
-public/
-public/
 public/
 public/
 public/
