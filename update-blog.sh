@@ -55,7 +55,7 @@ fi
 
 # 1. 檢查是否有未提交的變更
 log_info "檢查 Git 狀態..."
-if ! git diff --quiet || ! git diff --cached --quiet; then
+if ! git diff --quiet || ! git diff --cached --quiet || [ -n "$(git ls-files --others --exclude-standard)" ]; then
     log_info "發現未提交的變更，準備提交..."
     
     # 顯示變更內容
