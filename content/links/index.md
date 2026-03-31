@@ -2,7 +2,7 @@
 title: "我推薦你點進去看的各種連結"
 date: 2025-08-19T17:18:00+08:00 # 撰寫時間
 publishDate: 2025-08-20T06:00:00+08:00  # 預約之後發布
-lastmod: 2025-08-19 # 最後修改時間
+lastmod: 2026-03-31 # 最後修改時間
 draft: false
 
 
@@ -12,9 +12,9 @@ math: false       # 是否啟用數學公式
 code: true        # 是否有程式碼
 ---
 
-_最後更新：2025-08-19_
+_最後更新：2026-03-31_
 
-很抱歉拖了這麼久，我的 `/links` 終於上線了。
+很抱歉拖了這麼久，我的 `/links` 終於更新了。
 
 以下連結的順序沒有特別的依據，因為我想到什麼寫什麼。
 
@@ -33,8 +33,11 @@ _最後更新：2025-08-19_
 * [雷歐 Revol.C 的部落格](https://revolc.blog/)：前端工程師，音樂人，基督徒。Blog 的文筆對我來說有一種親切感。
 * [小麥的第二世界](https://blog2.worldofwheat.cc/)：資工系大學生，資訊能力看起來很強的樣子，有技術文也有自省文和生活分享。
 * [Jaron Writes.](https://www.jaron.tw/)：影像創作者王則倫的個人部落格，只比我早出生不到五年但是有比我高出許多的工作成就真的很厲害😵‍💫。他的文筆很好，文章好看，有關於自省和生活分享的主題是我的最愛。
+* [我的部落格](https://e89295.com/)：我喜歡他的文筆和文章內容，但還是不習慣直書的網頁。
+* [Cytrogen](https://cytrogen.icu/)：首頁好酷！文章的思考深度遠超於我，雖然他說他的中文程度不好，但其實讓我自慚形穢[^2]。
 * [陳建中｜Tân Kiàn-tiong](https://kiantiong.com/)：文章大部分內容和台語字型和字典有關；當然，和上面所有人一樣是[「自由」](https://tux24.xyz/articles/freedom-day)這邊的人[^1]
 [^1]: 或者說是[真．宅男](https://wiwi.blog/docs/tech/fake-vs-real-tech-nerd)
+[^2]: 我本來寫「自慚形『愧』」，還好有查字典
 
 # 個人網站（英文）
 
@@ -53,14 +56,6 @@ _最後更新：2025-08-19_
 * [Kagi Small Web](https://kagi.com/smallweb/)：可以在這裡找到很多英文的個人網站
 * [好連點我](https://nicelink.me)：Wiwi 架設的一個連結分享網站，已經關掉了😢但是當初那些 nicelinks 都有保留下來
 
-## 別人的連結頁面
-
-以下是其他人的 `/*roll`
-
-* [wiwi.blog](https://wiwi.blog/blogroll)
-* [Ivon](https://ivonblog.com/posts/blogroll/)
-* [JN](https://blog.giveanornot.com/nice-blogs/)
- 
 # 不分類有趣網站（這清單恐怕只會越來越長）
 
 * [簡單的地理小遊戲](https://www.geography-game.com/)：今天（2025-08-13）在 Hacker News 上發現的好玩遊戲，列支敦斯登有夠難按的😣
