@@ -12,7 +12,7 @@ math: false       # 是否啟用數學公式
 code: true        # 是否有程式碼
 ---
 
-以下原文是我改寫我回應給 [Alex 的這篇文章](https://alexhsu.com/album-order)的信，希望有一樣的 Juice WRLD 歌迷會看到所以我把它放上來：
+以下原文改寫自我回應給 [Alex 的這篇文章](https://alexhsu.com/album-order)的信，希望有一樣的 Juice WRLD 歌迷會看到所以我把它放上來：
 
 > 嗨 Alex:
 > 
