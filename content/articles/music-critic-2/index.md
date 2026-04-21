@@ -25,7 +25,7 @@ code: true        # 是否有程式碼
 所以如果要用我的評分和 Rateyourmusic.com 的評分的差值做 Z-score 的話，我覺得結果不會達到[皮皮的目的](https://trashposts.com/blog/rating-movies-benefits/)。
 
 雖然沒有辦法做 Z-score，但我還是可以試著評分。
-我在想要不要做一個專輯牆，驗收一下我的網頁開發能力和 Vibe Coding 能力。我大概會照 0 到 10，以 0.5 為最小間距的方式打分。最後看能不能統整出一個東西。
+我在想要不要做一個專輯牆，驗收一下我的網頁開發能力和 Vibe Coding 能力。我大概會照 0 到 10，以 0.5 為最小間距的方式打分。最後看能不能統整出什麼。
 
 我沒有寫完的 Part 1 裡面提到樂評是沒有辦法[理中客](https://immarcus.com/blog/double-standard/)的，一定沒有辦法可以客觀的比較一張搖滾專輯和 Techno 專輯。
 雖然你可以評分，但這兩者的尺度應該不會一樣。
