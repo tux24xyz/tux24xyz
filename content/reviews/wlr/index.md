@@ -9,5 +9,9 @@ artist: "Playboi Carti"
 score: 5.5
 intro_quote: "I take my shirt of now the hoe stop breathing"
 type: "reviews"
+year: 2020
 
 ---
+
+
+這是一張普通的專輯。

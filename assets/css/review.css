@@ -59,20 +59,45 @@
     margin-bottom: 0.5rem;
 }
 
+/* 1. 發行年份與曲風區塊 */
 .album-info {
-    font-size: 0.95rem;
-    color: #666;
-    line-height: 1.8;
+    font-size: 2rem;      /* 加大字體 */
+    color: #1a1a1a;         /* 改為接近全黑，提高對比 */
+    line-height: 2;         /* 增加行高，看起來不擁擠 */
+    margin-top: 1rem;
+    font-weight: 500;
 }
 
-/* 引言樣式：移除點點，加上引號感 */
+/* 針對「曲風：」這四個字加粗 */
+.album-info b {
+    color: #000;
+}
+
+/* 2. 引言區塊 (原本太小看不清楚) */
 .intro-quote-v2 {
     margin: 3rem 0;
-    padding: 1rem 2rem;
-    border-left: 4px solid #ccc;
+    padding: 1.5rem 2.5rem;
+    border-left: 5px solid #222; /* 裝飾線加粗 */
+    background: rgba(0,0,0,0.03);
+}
+
+.intro-quote-v2 p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;      /* 加大引言字體 */
+    color: #000;            /* 全黑 */
     font-style: italic;
-    font-size: 1.2rem;
-    background: rgba(0,0,0,0.02);
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* 3. 深色模式適應 (如果是黑底，字要變白) */
+.colorscheme-dark .album-info,
+.colorscheme-dark .intro-quote-v2 p {
+    color: #eeeeee;
+}
+.colorscheme-dark .intro-quote-v2 {
+    border-left-color: #eee;
+    background: rgba(255,255,255,0.05);
 }
 
 /* 正文 */
