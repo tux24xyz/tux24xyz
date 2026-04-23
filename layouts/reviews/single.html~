@@ -5,36 +5,31 @@
   {{ end }}
 
   <div class="album-review-container">
-    <header class="album-header-v2">
+    <header class="album-header">
       <div class="album-cover-wrapper">
         {{ $cover := .Resources.GetMatch "cover.jpg" }}
         {{ with $cover }}
-          {{ $img := .Resize "800x" }}
+          {{ $img := .Resize "1000x" }}
           <img src="{{ $img.RelPermalink }}" alt="{{ $.Title }}">
         {{ end }}
       </div>
-      
-      <div class="score-circle-wrapper">
-        <div class="score-circle">
-          <span class="score-num">{{ .Params.score }}</span>
-        </div>
+      <div class="score-box">
+        <span class="label">SCORE</span>
+        <span class="number">{{ .Params.score }}</span>
       </div>
     </header>
 
-    <div class="album-metadata">
-      <h1>{{ .Title }}</h1>
-      <h2>{{ .Params.artist }}</h2>
-      <p class="album-info">
-        發行年份：{{ .Params.year }} <br>
-        曲風：{{ range $index, $element := .Params.genres }}{{ if $index }}、{{ end }}{{ $element }}{{ end }}
-      </p>
-    </div>
-
-    {{ if .Params.intro_quote }}
-    <div class="intro-quote-v2">
-        <p>“ {{ .Params.intro_quote }} ”</p>
-    </div>
+    {{ with .Params.intro_quote }}
+    <blockquote class="intro-quote">
+      <p>{{ . }}</p>
+    </blockquote>
     {{ end }}
+
+    <div class="album-metadata">
+      <h2>{{ .Params.artist }}</h2>
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Params.year }} · {{ range .Params.genres }}<span class="genre-tag">{{ . }}</span> {{ end }}</p>
+    </div>
 
     <article class="prose">
       {{ .Content }}

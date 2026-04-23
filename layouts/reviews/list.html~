@@ -1,18 +1,19 @@
 {{ define "main" }}
+{{ $style := resources.Get "css/review.css" | minify }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
 <section class="review-list-container">
-  <h1 class="list-title">所有評論</h1>
-  
   <div class="album-grid">
-    {{ range .Pages.ByDate.Reverse }} <a href="{{ .RelPermalink }}" class="album-card">
+    {{ range (.Pages.ByParam "score").Reverse }}
+    <a href="{{ .RelPermalink }}" class="album-card">
       <div class="card-image-wrapper">
         {{ $cover := .Resources.GetMatch "cover.jpg" }}
-        {{ if $cover }}
-          {{ $thumb := $cover.Fill "400x400 webp" }} <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" loading="lazy">
+        {{ with $cover }}
+          {{ $thumb := .Fill "400x400 webp" }}
+          <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}">
         {{ end }}
-        
         <div class="card-score">{{ .Params.score }}</div>
       </div>
-      
       <div class="card-info">
         <span class="card-artist">{{ .Params.artist }}</span>
         <span class="card-title">{{ .Title }}</span>

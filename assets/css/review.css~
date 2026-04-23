@@ -1,0 +1,127 @@
+/* ============================================================
+   1. 核心變數與基礎設定 (全站通用)
+   ============================================================ */
+:root {
+    --pitchfork-red: #ff3530;
+    --text-main: #222;
+    --text-muted: #666;
+    --bg-white: #ffffff;
+    --font-serif: 'Playfair Display', serif;
+    --font-sans: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    --article-max-width: 680px;
+}
+
+body {
+    background-color: var(--bg-white);
+    color: var(--text-main);
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* ============================================================
+   2. 專輯牆樣式 (List Layout)
+   ============================================================ */
+.review-list-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 2.5rem;
+}
+
+.album-card {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.card-image-wrapper {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background: #f0f0f0;
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.album-card:hover .card-image-wrapper {
+    transform: scale(1.02);
+}
+
+/* 專輯牆的小分數標籤 */
+.card-score {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: var(--text-main);
+    color: var(--bg-white);
+    padding: 5px 10px;
+    font-family: var(--font-sans);
+    font-weight: 900;
+    font-size: 0.85rem;
+}
+
+.card-info { margin-top: 1rem; }
+.card-artist { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); }
+.card-title { font-weight: 800; font-size: 1.1rem; display: block; margin-top: 0.2rem; }
+
+/* ============================================================
+   3. 樂評內頁樣式 (Single Layout)
+   ============================================================ */
+.album-review-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem;
+}
+
+.album-header {
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+/* 內頁的大分數方框 */
+.score-box {
+    position: absolute;
+    top: -30px;
+    right: 30px;
+    background: var(--bg-white);
+    border: 5px solid var(--text-main);
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 0px var(--text-main);
+    z-index: 10;
+}
+
+.score-box .label { font-size: 0.8rem; font-weight: 900; letter-spacing: 2px; }
+.score-box .number { font-size: 3rem; font-weight: 900; color: var(--pitchfork-red); }
+
+/* 引言區塊 */
+.intro-quote {
+    max-width: var(--article-max-width);
+    margin: 5rem auto;
+    position: relative;
+    text-align: center;
+}
+
+.intro-quote p {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    font-style: italic;
+    color: var(--text-main);
+}
+
+/* 正文 */
+.prose {
+    max-width: var(--article-max-width);
+    margin: 0 auto;
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    line-height: 1.9;
+}
