@@ -1,0 +1,28 @@
+<header class="album-header">
+    {{ $cover := .Resources.GetMatch "cover.jpg" }}
+    {{ if $cover }}
+        {{ $optimized := $cover.Resize "1200x webp" }}
+        <img src="{{ $optimized.RelPermalink }}" alt="Cover">
+    {{ end }}
+
+    <div class="score-box">
+        <span class="label">SCORE</span>
+        <span class="number">{{ .Params.score }}</span>
+    </div>
+</header>
+
+{{ with .Params.intro_quote }}
+<blockquote class="intro-quote">
+    <p>{{ . }}</p>
+</blockquote>
+{{ end }}
+
+<div class="album-metadata">
+    <h2>{{ .Params.artist }}</h2>
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.year }} · {{ range .Params.tags }}{{ . }} {{ end }}</p>
+</div>
+
+<article class="prose">
+    {{ .Content }}
+</article>

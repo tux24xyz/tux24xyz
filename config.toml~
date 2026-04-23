@@ -91,9 +91,5 @@ style = "doom-one2"
   name = "聯絡我"
   weight = 7
   url = "contact/"
-[[menu.main]]
-  name = "樂評"
-  weight = 8
-  url = "reviews/"
- 
+
 
