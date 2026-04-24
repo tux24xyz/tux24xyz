@@ -105,3 +105,48 @@
     line-height: 1.8;
     margin-top: 2rem;
 }
+
+/* 排序按鈕樣式 */
+.sort-nav {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: var(--font-sans);
+}
+
+.sort-nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #666;
+    border-bottom: 1px solid transparent;
+}
+
+.sort-nav a:hover {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+/* 極簡圖片網格 */
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px; /* 封面之間的間隙，你可以調成 0 變成無縫 */
+}
+
+.album-card-minimal {
+    display: block;
+    overflow: hidden;
+}
+
+.album-card-minimal .card-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: filter 0.3s ease;
+}
+
+/* 滑鼠移上去時稍微變暗或變亮，增加互動感 */
+.album-card-minimal:hover img {
+    filter: brightness(0.8);
+}

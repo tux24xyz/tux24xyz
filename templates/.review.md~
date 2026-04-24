@@ -8,5 +8,7 @@ genres: {{GENRES}}
 artist: {{ARTIST}}
 score: {{SCORE}}
 intro_quote: {{QUOTE}}
+type: "reviews"
+
 ---
 

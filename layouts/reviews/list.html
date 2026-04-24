@@ -1,24 +1,17 @@
 {{ define "content" }}
   {{ $style := resources.Get "css/review.css" | minify }}
-  {{ if $style }}
-    <style>{{ $style.Content | safeCSS }}</style>
-  {{ end }}
+  <style>{{ $style.Content | safeCSS }}</style>
 
   <section class="review-list-container">
     <div class="album-grid">
       {{ range (.Pages.ByParam "score").Reverse }}
-      <a href="{{ .RelPermalink }}" class="album-card">
+      <a href="{{ .RelPermalink }}" class="album-card-minimal">
         <div class="card-image-wrapper">
           {{ $cover := .Resources.GetMatch "cover.jpg" }}
           {{ with $cover }}
-            {{ $thumb := .Fill "400x400 webp" }}
-            <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}">
+            {{ $thumb := .Fill "600x600 webp" }}
+            <img src="{{ $thumb.RelPermalink }}" alt="{{ $.Title }}" loading="lazy">
           {{ end }}
-          <div class="card-score">{{ .Params.score }}</div>
-        </div>
-        <div class="card-info">
-          <span class="card-artist">{{ .Params.artist }}</span>
-          <span class="card-title">{{ .Title }}</span>
         </div>
       </a>
       {{ end }}

@@ -25,7 +25,7 @@
       <h1>{{ .Title }}</h1>
       <h2>{{ .Params.artist }}</h2>
       <p class="album-info">
-        發行年份：{{ .Params.year }} <br>
+        發行年份：{{ .Params.released }} <br>
         曲風：{{ range $index, $element := .Params.genres }}{{ if $index }}、{{ end }}{{ $element }}{{ end }}
       </p>
     </div>
