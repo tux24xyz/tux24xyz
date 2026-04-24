@@ -19,6 +19,9 @@ TEMPLATE_DIR="templates"
 REVIEWS_DIR="./content/reviews" # 樂評專用目錄
 CONFIG_FILE=".writing-config"
 
+# 預設標籤
+AVAILABLE_GENRES=("🇯🇵J-Pop" "🎸Rock" "🎹Electronic")
+
 # 輸出函數
 log_info() { echo -e "${BLUE}[INFO]${NC} $1"; }
 log_success() { echo -e "${GREEN}[SUCCESS]${NC} $1"; }
@@ -80,7 +83,37 @@ get_album_info() {
     ARTICLE_FILENAME="${FILE_SLUG}.md"
 }
 
-# 3. 自動化封面抓取與處理 (New!)
+# 3. 標籤選擇 (保留原有功能)
+select_genres() {
+    local selected_genres=()
+    echo -e "\n${MAGENTA}=== 可用標籤 ===${NC}"
+    for i in "${!AVAILABLE_GENRES[@]}"; do
+        echo -e "${YELLOW}$((i+1)).${NC} ${AVAILABLE_GENRES[$i]}"
+    done
+    
+    while true; do
+        log_prompt "請選擇標籤 (輸入數字, c 自定義, done 完成):"
+        read -r genre_input
+        case "$genre_input" in
+            "done") break ;;
+            "c") read -r ct; selected_genres+=("$ct"); ;;
+            *) 
+                IFS=',' read -ra nums <<< "$genre_input"
+                for n in "${nums[@]}"; do
+                    local t="${AVAILABLE_GENRES[$((n-1))]}"
+                    selected_genres+=("$t")
+                done ;;
+        esac
+    done
+    
+    # 格式化為 YAML 陣列
+    SELECTED_GENRES_YAML=""
+    for genre in "${selected_genres[@]}"; do
+        [ -z "$SELECTED_GENRES_YAML" ] && SELECTED_GENRES_YAML="\"$genre\"" || SELECTED_GENRES_YAML="$SELECTED_GENRES_YAML, \"$genre\""
+    done
+}
+
+# 4. 自動化封面抓取與處理 (New!)
 fetch_and_process_cover() {
     local target_folder=$1
     local target_img="${target_folder}/cover.jpg"
@@ -112,7 +145,7 @@ fetch_and_process_cover() {
     fi
 }
 
-# 4. 檔案組織與寫入
+# 5. 檔案組織與寫入
 process_and_organize() {
     local folder_path="${REVIEWS_DIR}/${FILE_SLUG}"
     mkdir -p "$folder_path"
@@ -126,7 +159,7 @@ process_and_organize() {
     template_content=$(echo "$template_content" | sed "s/{{SCORE}}/$ALBUM_SCORE/g")
     template_content=$(echo "$template_content" | sed "s/{{QUOTE}}/\"$ALBUM_QUOTE\"/g")
     template_content=$(echo "$template_content" | sed "s/{{DATE}}/$current_time/g")
-    template_content=$(echo "$template_content" | sed "s/{{TAGS}}/[$SELECTED_TAGS_YAML]/g")
+    template_content=$(echo "$template_content" | sed "s/{{GENRES}}/[$SELECTED_GENRES_YAML]/g")
     
     echo "$template_content" > "${folder_path}/index.md"
     
@@ -146,6 +179,7 @@ main() {
     list_templates
     select_template
     get_album_info
+    select_genres
     process_and_organize
     
     echo -e "\n${GREEN}🎉 樂評框架已準備好！請至 ${REVIEWS_DIR}/${FILE_SLUG}/index.md 開始寫作。${NC}"

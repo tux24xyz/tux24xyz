@@ -77,6 +77,9 @@ get_album_info() {
     
     log_prompt "請輸入一句關鍵引言 (Intro Quote):"
     read -r ALBUM_QUOTE
+    
+    log_prompt "請輸入發行年份:"
+    read -r RELEASED
 
     log_prompt "請輸入資料夾/文件名 (英文或數字較佳):"
     read -r FILE_SLUG
@@ -159,6 +162,7 @@ process_and_organize() {
     template_content=$(echo "$template_content" | sed "s/{{SCORE}}/$ALBUM_SCORE/g")
     template_content=$(echo "$template_content" | sed "s/{{QUOTE}}/\"$ALBUM_QUOTE\"/g")
     template_content=$(echo "$template_content" | sed "s/{{DATE}}/$current_time/g")
+    template_content=$(echo "$template_content" | sed "s/{{RELEASED}}/$RELEASED/g") 
     template_content=$(echo "$template_content" | sed "s/{{GENRES}}/[$SELECTED_GENRES_YAML]/g")
     
     echo "$template_content" > "${folder_path}/index.md"
