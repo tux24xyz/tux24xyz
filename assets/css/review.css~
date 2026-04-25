@@ -1,127 +1,169 @@
-/* ============================================================
-   1. 核心變數與基礎設定 (全站通用)
-   ============================================================ */
-:root {
-    --pitchfork-red: #ff3530;
-    --text-main: #222;
-    --text-muted: #666;
-    --bg-white: #ffffff;
-    --font-serif: 'Playfair Display', serif;
-    --font-sans: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-    --article-max-width: 680px;
-}
-
-body {
-    background-color: var(--bg-white);
-    color: var(--text-main);
-    margin: 0;
-    line-height: 1.6;
-}
-
-/* ============================================================
-   2. 專輯牆樣式 (List Layout)
-   ============================================================ */
-.review-list-container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 3rem 1.5rem;
-}
-
-.album-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 2.5rem;
-}
-
-.album-card {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-}
-
-.card-image-wrapper {
-    position: relative;
-    aspect-ratio: 1 / 1;
-    overflow: hidden;
-    background: #f0f0f0;
-    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-.album-card:hover .card-image-wrapper {
-    transform: scale(1.02);
-}
-
-/* 專輯牆的小分數標籤 */
-.card-score {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background: var(--text-main);
-    color: var(--bg-white);
-    padding: 5px 10px;
-    font-family: var(--font-sans);
-    font-weight: 900;
-    font-size: 0.85rem;
-}
-
-.card-info { margin-top: 1rem; }
-.card-artist { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); }
-.card-title { font-weight: 800; font-size: 1.1rem; display: block; margin-top: 0.2rem; }
-
-/* ============================================================
-   3. 樂評內頁樣式 (Single Layout)
-   ============================================================ */
+/* 容器 */
 .album-review-container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 4rem 1.5rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
 }
 
-.album-header {
-    position: relative;
-    margin-bottom: 4rem;
-}
-
-/* 內頁的大分數方框 */
-.score-box {
-    position: absolute;
-    top: -30px;
-    right: 30px;
-    background: var(--bg-white);
-    border: 5px solid var(--text-main);
-    width: 120px;
-    height: 120px;
+/* 封面與分數並列佈局 */
+.album-header-v2 {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.album-cover-wrapper {
+    flex: 2; /* 封面佔較大空間 */
+}
+
+.album-cover-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* 分數圓圈 */
+.score-circle-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.score-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #212121; /* 預設深色 */
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 10px 10px 0px var(--text-main);
-    z-index: 10;
+    font-family: var(--font-sans); /* 隨主題普通字體 */
 }
 
-.score-box .label { font-size: 0.8rem; font-weight: 900; letter-spacing: 2px; }
-.score-box .number { font-size: 3rem; font-weight: 900; color: var(--pitchfork-red); }
-
-/* 引言區塊 */
-.intro-quote {
-    max-width: var(--article-max-width);
-    margin: 5rem auto;
-    position: relative;
-    text-align: center;
+/* 自動適應 coder 主題的深色模式 */
+.colorscheme-dark .score-circle {
+    background-color: #ffffff;
+    color: #212121;
 }
 
-.intro-quote p {
-    font-family: var(--font-serif);
-    font-size: 2rem;
+.score-num {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+/* 標記資料 */
+.album-metadata h1 {
+    margin-bottom: 0.5rem;
+}
+
+/* 1. 發行年份與曲風區塊 */
+.album-info {
+    font-size: 2rem;      /* 加大字體 */
+    color: #1a1a1a;         /* 改為接近全黑，提高對比 */
+    line-height: 2;         /* 增加行高，看起來不擁擠 */
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+/* 針對「曲風：」這四個字加粗 */
+.album-info b {
+    color: #000;
+}
+
+/* 2. 引言區塊 (原本太小看不清楚) */
+.intro-quote-v2 {
+    margin: 3rem 0;
+    padding: 1.5rem 2.5rem;
+    border-left: 5px solid #222; /* 裝飾線加粗 */
+    background: rgba(0,0,0,0.03);
+}
+
+.intro-quote-v2 p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;      /* 加大引言字體 */
+    color: #000;            /* 全黑 */
     font-style: italic;
-    color: var(--text-main);
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* 3. 深色模式適應 (如果是黑底，字要變白) */
+.colorscheme-dark .album-info,
+.colorscheme-dark .intro-quote-v2 p {
+    color: #eeeeee;
+}
+.colorscheme-dark .intro-quote-v2 {
+    border-left-color: #eee;
+    background: rgba(255,255,255,0.05);
 }
 
 /* 正文 */
 .prose {
-    max-width: var(--article-max-width);
-    margin: 0 auto;
-    font-family: var(--font-serif);
-    font-size: 1.2rem;
-    line-height: 1.9;
+    line-height: 1.8;
+    margin-top: 2rem;
+}
+
+/* 排序按鈕樣式 */
+.sort-nav {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: var(--font-sans);
+}
+
+.sort-nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #666;
+    border-bottom: 1px solid transparent;
+}
+
+.sort-nav a:hover {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+/* 極簡圖片網格 */
+/* 針對樂評頁面，修正父容器 coder 主題的佈局 */
+.content {
+    display: block !important; /* 強制取消 flex 佈局，讓 margin: auto 生效 */
+    width: 100%;
+}
+
+/* 極簡圖片網格 - 維持之前的優化寫法 */
+.album-grid {
+    display: grid;
+    /* 使用 auto-fit 配合固定寬度，是置中的靈魂 */
+    grid-template-columns: repeat(auto-fit, 250px); 
+    gap: 15px;
+    
+    /* 讓網格內的內容物居中 */
+    justify-content: center; 
+    
+    /* 讓容器本身在 block 水平下居中 */
+    max-width: 1000px; 
+    margin: 2rem auto !important; 
+    
+    padding: 0 1rem;
+}
+
+.album-card-minimal {
+    display: block;
+    overflow: hidden;
+}
+
+.album-card-minimal .card-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: filter 0.3s ease;
+}
+
+/* 滑鼠移上去時稍微變暗或變亮，增加互動感 */
+.album-card-minimal:hover img {
+    filter: brightness(0.8);
 }

@@ -9,7 +9,7 @@
         <div class="card-image-wrapper">
           {{ $cover := .Resources.GetMatch "cover.jpg" }}
           {{ with $cover }}
-            {{ $thumb := .Fill "600x600 webp" }}
+            {{ $thumb := .Fill "800x800 webp" }}
             <img src="{{ $thumb.RelPermalink }}" alt="{{ $.Title }}" loading="lazy">
           {{ end }}
         </div>

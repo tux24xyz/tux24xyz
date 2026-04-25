@@ -127,10 +127,26 @@
 }
 
 /* 極簡圖片網格 */
+/* 針對樂評頁面，修正父容器 coder 主題的佈局 */
+.content {
+    display: block !important; /* 強制取消 flex 佈局，讓 margin: auto 生效 */
+    width: 100%;
+}
+
+/* 極簡圖片網格 - 維持之前的優化寫法 */
 .album-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 10px; /* 封面之間的間隙，你可以調成 0 變成無縫 */
+    /* 使用 auto-fit 配合固定寬度，是置中的靈魂 */
+    grid-template-columns: repeat(auto-fit, 315px); 
+    
+    /* 讓網格內的內容物居中 */
+    justify-content: center; 
+    
+    /* 讓容器本身在 block 水平下居中 */
+    max-width: 1000px; 
+    margin: 2rem auto !important; 
+    
+    padding: 0 1rem;
 }
 
 .album-card-minimal {
