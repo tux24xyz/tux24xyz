@@ -1,0 +1,168 @@
+/* 容器 */
+.album-review-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* 封面與分數並列佈局 */
+.album-header-v2 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.album-cover-wrapper {
+    flex: 2; /* 封面佔較大空間 */
+}
+
+.album-cover-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* 分數圓圈 */
+.score-circle-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.score-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #212121; /* 預設深色 */
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-sans); /* 隨主題普通字體 */
+}
+
+/* 自動適應 coder 主題的深色模式 */
+.colorscheme-dark .score-circle {
+    background-color: #ffffff;
+    color: #212121;
+}
+
+.score-num {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+/* 標記資料 */
+.album-metadata h1 {
+    margin-bottom: 0.5rem;
+}
+
+/* 1. 發行年份與曲風區塊 */
+.album-info {
+    font-size: 2rem;      /* 加大字體 */
+    color: #1a1a1a;         /* 改為接近全黑，提高對比 */
+    line-height: 2;         /* 增加行高，看起來不擁擠 */
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+/* 針對「曲風：」這四個字加粗 */
+.album-info b {
+    color: #000;
+}
+
+/* 2. 引言區塊 (原本太小看不清楚) */
+.intro-quote-v2 {
+    margin: 3rem 0;
+    padding: 1.5rem 2.5rem;
+    border-left: 5px solid #222; /* 裝飾線加粗 */
+    background: rgba(0,0,0,0.03);
+}
+
+.intro-quote-v2 p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;      /* 加大引言字體 */
+    color: #000;            /* 全黑 */
+    font-style: italic;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* 3. 深色模式適應 (如果是黑底，字要變白) */
+.colorscheme-dark .album-info,
+.colorscheme-dark .intro-quote-v2 p {
+    color: #eeeeee;
+}
+.colorscheme-dark .intro-quote-v2 {
+    border-left-color: #eee;
+    background: rgba(255,255,255,0.05);
+}
+
+/* 正文 */
+.prose {
+    line-height: 1.8;
+    margin-top: 2rem;
+}
+
+/* 排序按鈕樣式 */
+.sort-nav {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: var(--font-sans);
+}
+
+.sort-nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #666;
+    border-bottom: 1px solid transparent;
+}
+
+.sort-nav a:hover {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+/* 極簡圖片網格 */
+/* 針對樂評頁面，修正父容器 coder 主題的佈局 */
+.content {
+    display: block !important; /* 強制取消 flex 佈局，讓 margin: auto 生效 */
+    width: 100%;
+}
+
+/* 極簡圖片網格 - 維持之前的優化寫法 */
+.album-grid {
+    display: grid;
+    /* 使用 auto-fit 配合固定寬度，是置中的靈魂 */
+    grid-template-columns: repeat(auto-fit, 315px); 
+    
+    /* 讓網格內的內容物居中 */
+    justify-content: center; 
+    
+    /* 讓容器本身在 block 水平下居中 */
+    max-width: 1000px; 
+    margin: 2rem auto !important; 
+    
+    padding: 0 1rem;
+}
+
+.album-card-minimal {
+    display: block;
+    overflow: hidden;
+}
+
+.album-card-minimal .card-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: filter 0.3s ease;
+}
+
+/* 滑鼠移上去時稍微變暗或變亮，增加互動感 */
+.album-card-minimal:hover img {
+    filter: brightness(0.8);
+}

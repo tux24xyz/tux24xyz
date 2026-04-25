@@ -1,0 +1,38 @@
+{{ define "content" }}
+  {{ $style := resources.Get "css/review.css" | minify }}
+  {{ if $style }}
+    <style>{{ $style.Content | safeCSS }}</style>
+  {{ end }}
+
+  <div class="album-review-container">
+    <header class="album-header">
+      <div class="album-cover-wrapper">
+        {{ $cover := .Resources.GetMatch "cover.jpg" }}
+        {{ with $cover }}
+          {{ $img := .Resize "1000x" }}
+          <img src="{{ $img.RelPermalink }}" alt="{{ $.Title }}">
+        {{ end }}
+      </div>
+      <div class="score-box">
+        <span class="label">SCORE</span>
+        <span class="number">{{ .Params.score }}</span>
+      </div>
+    </header>
+
+    {{ with .Params.intro_quote }}
+    <blockquote class="intro-quote">
+      <p>{{ . }}</p>
+    </blockquote>
+    {{ end }}
+
+    <div class="album-metadata">
+      <h2>{{ .Params.artist }}</h2>
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Params.year }} · {{ range .Params.genres }}<span class="genre-tag">{{ . }}</span> {{ end }}</p>
+    </div>
+
+    <article class="prose">
+      {{ .Content }}
+    </article>
+  </div>
+{{ end }}
