@@ -12,3 +12,5 @@ type: "reviews"
 released: 2015
 
 ---
+
+[樂評已寫過，點我](https://tux24.xyz/articles/tame-impala/)。

@@ -12,3 +12,5 @@ type: "reviews"
 released: 2021
 
 ---
+
+[樂評已寫過，點我](https://tux24.xyz/articles/whole-lotta-red)。

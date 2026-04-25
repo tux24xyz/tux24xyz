@@ -7,11 +7,11 @@ draft: false
 genres: ["Rage"]
 artist: "Playboi Carti"
 score: 5.5
-intro_quote: "I take my shirt of now the hoe stop breathing"
+intro_quote: "I take my shirt off and all the hoes stop breathin'"
 type: "reviews"
 released: 2020
 
 ---
 
 
-這是一張普通的專輯。
+[樂評已寫過，點我](https://tux24.xyz/articles/whole-lotta-red/)。

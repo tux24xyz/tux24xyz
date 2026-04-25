@@ -7,8 +7,10 @@ draft: false
 genres: ["House", "Dance-pop"]
 artist: "Tame Impala"
 score: 9
-intro_quote: "You're a senophile, I watch Family Guy"
+intro_quote: "You're a cenophile, I watch Family Guy"
 type: "reviews"
 released: 2025
 
 ---
+
+[樂評已寫過，點我](https://tux24.xyz/articles/tame-impala/)。
