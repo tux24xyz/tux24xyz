@@ -20,7 +20,7 @@ REVIEWS_DIR="./content/reviews" # 樂評專用目錄
 CONFIG_FILE=".writing-config"
 
 # 預設標籤
-AVAILABLE_GENRES=("🇯🇵J-Pop" "🎸Rock" "🎹Electronic")
+AVAILABLE_GENRES=("Psychedelic Pop" "Synth Pop" "Psychedelic Rock" "Neo-psychedelia" "Rage" "Trap" "Jazz Fusion" "Pop Rap" "Emo Rap")
 
 # 輸出函數
 log_info() { echo -e "${BLUE}[INFO]${NC} $1"; }
@@ -169,8 +169,33 @@ process_and_organize() {
     
     # 執行封面抓取
     fetch_and_process_cover "$folder_path"
+    # 自動抓 Genre
+    fetch_tags_from_mb
     
     log_success "樂評資料夾已生成: $folder_path"
+}
+
+# 自動抓取 genre
+
+# 新增一個獲取標籤的函數
+fetch_tags_from_mb() {
+    log_info "正在從 MusicBrainz 獲取標籤..."
+    
+    # 利用已經拿到的 $mbid (在封面抓取步驟中獲得)
+    if [ -n "$mbid" ]; then
+        # 抓取 release 的 tags
+        local tags_json=$(curl -s "https://musicbrainz.org/ws/2/release/$mbid?inc=tags&fmt=json")
+        # 使用 jq 提取前三個標籤並轉換為 YAML 格式
+        local auto_tags=$(echo "$tags_json" | jq -r '[.tags[]?.name] | .[:3] | join("\", \"")')
+        
+        if [ -z "$auto_tags" ]; then
+            log_warning "MusicBrainz 無標籤資訊。"
+        else
+            # 將自動抓取的標籤合併到你的變數中
+            [ -z "$SELECTED_GENRES_YAML" ] && SELECTED_GENRES_YAML="\"$auto_tags\"" || SELECTED_GENRES_YAML="$SELECTED_GENRES_YAML, \"$auto_tags\""
+            log_success "自動加入標籤: $auto_tags"
+        fi
+    fi
 }
 
 # 主程序
