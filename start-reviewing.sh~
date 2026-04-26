@@ -20,7 +20,7 @@ REVIEWS_DIR="./content/reviews" # 樂評專用目錄
 CONFIG_FILE=".writing-config"
 
 # 預設標籤
-AVAILABLE_GENRES=("🇯🇵J-Pop" "🎸Rock" "🎹Electronic")
+AVAILABLE_GENRES=("Psychedelic Pop" "Synth Pop" "Psychedelic Rock" "Neo-psychedelia" "Rage" "Trap" "Jazz Fusion" "Pop Rap" "Emo Rap")
 
 # 輸出函數
 log_info() { echo -e "${BLUE}[INFO]${NC} $1"; }
@@ -169,6 +169,8 @@ process_and_organize() {
     
     # 執行封面抓取
     fetch_and_process_cover "$folder_path"
+    # 自動抓 Genre
+    fetch_tags_from_mb
     
     log_success "樂評資料夾已生成: $folder_path"
 }
@@ -207,7 +209,6 @@ main() {
     select_template
     get_album_info
     select_genres
-    fetch_tags_from_mb
     process_and_organize
     
     echo -e "\n${GREEN}🎉 樂評框架已準備好！請至 ${REVIEWS_DIR}/${FILE_SLUG}/index.md 開始寫作。${NC}"

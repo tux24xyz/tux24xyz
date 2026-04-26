@@ -20,7 +20,7 @@ REVIEWS_DIR="./content/reviews" # 樂評專用目錄
 CONFIG_FILE=".writing-config"
 
 # 預設標籤
-AVAILABLE_GENRES=("Psychedelic Pop" "Synth Pop" "Psychedelic Rock" "Neo-psychedelia" "Rage" "Trap" "Jazz Fusion" "Pop Rap" "Emo Rap")
+AVAILABLE_GENRES=("Psychedelic Pop" "Synth Pop" "Psychedelic Rock" "Neo-psychedelia" "Rage" "Trap" "Jazz Fusion" "Pop Rap" "Emo Rap" "Abstract Hip Hop" "Jazz Rap" "Hardcore Hip Hop" "Ambient" "Memphis Rap")
 
 # 輸出函數
 log_info() { echo -e "${BLUE}[INFO]${NC} $1"; }

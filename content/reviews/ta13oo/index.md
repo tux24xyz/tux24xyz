@@ -3,7 +3,7 @@ title: "TA13OO"
 date: 2026-04-26T14:06:53+08:00 # 撰寫時間
 publishDate: 2026-04-26T14:06:53+08:00  # 預約之後發布
 #lastmod: 2025-06-30 # 最後修改時間
-draft: true
+draft: false
 genres: ["Trap"]
 artist: "Denzel Curry"
 score: 8.5
