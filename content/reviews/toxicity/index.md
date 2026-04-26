@@ -1,0 +1,14 @@
+ ---
+title: "Toxicity"
+date: 2026-04-26T22:48:43+08:00 # 撰寫時間
+publishDate: 2026-04-26T22:48:43+08:00  # 預約之後發布
+#lastmod: 2025-06-30 # 最後修改時間
+draft: true
+genres: ["Alternative Metal"]
+artist: "System of a Down"
+score: 7
+intro_quote: "剛開始聽的時候很震撼，但聽久了會有點疲勞，就一點而已啦。"
+type: "reviews"
+released: 2001
+
+---
