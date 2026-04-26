@@ -1,0 +1,14 @@
+ ---
+title: "Madvillainy"
+date: 2026-04-26T17:28:49+08:00 # 撰寫時間
+publishDate: 2026-04-26T17:28:49+08:00  # 預約之後發布
+#lastmod: 2025-06-30 # 最後修改時間
+draft: false
+genres: ["Abstract Hip Hop"]
+artist: "Madvillain"
+score: 9.5
+intro_quote: "帥，太帥了。喜歡的歌詞太多不知道要放哪句。"
+type: "reviews"
+released: 2004
+
+---
