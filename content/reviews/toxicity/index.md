@@ -3,7 +3,7 @@ title: "Toxicity"
 date: 2026-04-26T22:48:43+08:00 # 撰寫時間
 publishDate: 2026-04-26T22:48:43+08:00  # 預約之後發布
 #lastmod: 2025-06-30 # 最後修改時間
-draft: true
+draft: false
 genres: ["Alternative Metal"]
 artist: "System of a Down"
 score: 7
