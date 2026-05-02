@@ -38,7 +38,7 @@ _變高級很多嘛。_
 在不同專輯之間，不是也會有些歌曲與歌曲組成的系列嗎？
 我也嚮往這種有很多作品之間互相聯繫的感覺，不一定要明著當續集，精神續作或是暗示以前作品的內容也不錯，不過這有點離題了。
 
-極客死亡計畫就有一個[「泳道」頁面](https://www.geedea.pro/categories/)展示系列文章（其實似乎每篇文章都屬於一個系列）；[Eddie](https://eddielv.com/series/) 也有幫文章分系列，方便閱讀；Alex 除了[分專題寫作](https://alexhsu.com/topics)外，還打算[把專題文章編成一本書](https://alexhsu.com/game-mindset)。或許我也可以為我的 Blog 這麼做。正好我最近深感 [/articles](https://tux24.xyz/articles) 名不符實，混入了很多不算是「文章」的東西，既然我想滿足我的「專輯欲」，不如趁這個機會？
+極客死亡計畫就有一個[「泳道」頁面](https://www.geedea.pro/categories/)展示系列文章；[Eddie](https://eddielv.com/series/) 也有幫文章分系列，方便閱讀；Alex 除了[分專題寫作](https://alexhsu.com/topics)外，還打算[把專題文章編成一本書](https://alexhsu.com/game-mindset)。或許我也可以為我的 Blog 這麼做。正好我最近深感 [/articles](https://tux24.xyz/articles) 名不符實，混入了很多不算是「文章」的東西，既然我想滿足我的「專輯欲」，不如趁這個機會？
 
 「文字專輯」，有人這麼描述過一系列的文章嗎？還是只有書最符合這個概念？如果我為我的文章排個順序、統計長度（字數？）、文章名字取得短一點、找一張圖片切成正方形當封面（我喜歡正方形的圖片，排起來才好看）、取個專輯名、最後放在我的「文字專輯牆」上，會不會很有[成就感](https://tux24.xyz/articles/logging/)？ ... 好像就跟寫了一本沒出版的書差不多，但「我寫了一本書/我做了一張專輯」不管哪一個放到我身上都有種[死而無憾](https://noa.bearblog.dev/team-die-vs-team-live/)的感覺（我是不是太小看自己了？）。
 
