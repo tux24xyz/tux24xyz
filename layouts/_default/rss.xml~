@@ -22,7 +22,11 @@
     </image>
     {{ end }}
     
-    {{ $pages := where .Site.RegularPages "Section" "articles" }}
+   {{ if .IsHome }}
+     {{ $pages := where .Site.RegularPages "Section" "in" (slice "articles" "posts") }}
+   {{ else }}
+     {{ $pages := where .Site.RegularPages "Section" .Section }}
+   {{ end }} 
     
     {{ range $pages.ByDate.Reverse }}
     <item>
