@@ -1,0 +1,14 @@
+ ---
+title: "Doris"
+date: 2026-05-03T10:24:41+08:00 # 撰寫時間
+publishDate: 2026-05-03T10:24:41+08:00  # 預約之後發布
+#lastmod: 2025-06-30 # 最後修改時間
+draft: false
+genres: ["Abstract Hip Hop", "Hardcore Hip Hop"]
+artist: "Earl Sweatshirt"
+score: 8
+intro_quote: "Something sinister to it, pendulum swinging slow. A degenerate moving through the city with criminals, stealth."
+type: "reviews"
+released: 2013
+
+---

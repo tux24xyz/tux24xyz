@@ -17,7 +17,11 @@ _這是這個部落格最早的文章主意之一，但一直沒寫出來。_
 
 這篇文章可能會是一個隨時處於變動、增減的過程之中，。
 
-# 在補習班的日子、化學課、Crybaby、XXXTENTAXICIoN
+# 在補習班的日子、化學課、Crybaby、XXXTENTAXICIoN、麥當勞、Cigarettes
+
+聽著 Juice WRLD 的 Cigarettes 這首歌，我又想起了我在補習班樓下的麥當勞吃飯的經驗。
+
+
 
 # 長安分館、會考考古題、徹夜之歌、Playboi Carti、Lil Uzi Vert
 

@@ -10,8 +10,8 @@
     
     <!-- 添加編輯器和生成器信息 -->
     <generator>Hugo {{ hugo.Version }}</generator>
-    <managingEditor>{{ .Site.Author.email | default "noreply@example.com" }} ({{ .Site.Author.name | default "tux24" }})</managingEditor>
-    <webMaster>{{ .Site.Author.email | default "noreply@example.com" }} ({{ .Site.Author.name | default "tux24" }})</webMaster>
+    <managingEditor>{{ .Site.Author.email | default "tux24xyz@protonmail.com" }} ({{ .Site.Author.name | default "tux24" }})</managingEditor>
+    <webMaster>{{ .Site.Author.email | default "tux24xyz@protonmail.com" }} ({{ .Site.Author.name | default "tux24" }})</webMaster>
     
     <!-- 添加網站圖標 -->
     {{ with .Site.Params.FaviconSVG }}
@@ -22,16 +22,18 @@
     </image>
     {{ end }}
     
-    {{ range .Site.RegularPages.ByDate.Reverse }}
+    {{ $pages := where .Site.RegularPages "Section" "articles" }}
+    
+    {{ range $pages.ByDate.Reverse }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid>{{ .Permalink }}</guid>
       
-      <!-- 作者信息 -->
+      <!-- 作者資訊 -->
       {{ with .Site.Params.Author }}
-      <author>{{ $.Site.Author.email | default "noreply@example.com" }} ({{ . }})</author>
+      <author>{{ $.Site.Author.email | default "tux24xyz@protonmail.com" }} ({{ . }})</author>
       {{ end }}
       
       <!-- 分類和標籤 -->
