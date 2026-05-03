@@ -22,6 +22,7 @@
     </image>
     {{ end }}
 
+    {{ $pages := .Site.RegularPages }}
     {{ $mainSections := slice "articles" "posts" }}
 
     {{ if .IsHome }}
