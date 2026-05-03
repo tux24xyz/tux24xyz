@@ -22,11 +22,11 @@
     </image>
     {{ end }}
 
-   {{ $pages := slice }}
-
+   {{ $pages := .Site.RegularPages }} 
+    
    {{ if .IsHome }}
      {{ $pages := where .Site.RegularPages "Section" "in" (slice "articles" "posts") }}
-   {{ else }}
+   {{ else if .IsSection }}
      {{ $pages := where .Site.RegularPages "Section" .Section }}
    {{ end }} 
     

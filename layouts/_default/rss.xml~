@@ -21,6 +21,8 @@
       <link>{{ $.Site.BaseURL }}</link>
     </image>
     {{ end }}
+
+   {{ $pages := .Site.RegularPages }} 
     
    {{ if .IsHome }}
      {{ $pages := where .Site.RegularPages "Section" "in" (slice "articles" "posts") }}
