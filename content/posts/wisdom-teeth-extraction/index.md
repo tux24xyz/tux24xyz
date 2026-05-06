@@ -40,6 +40,6 @@ code: true        # 是否有程式碼
 
 Martin Garrix 有做過 Remix，是我的童年最愛之一：
 
-{{< youtube lJs0t7uc7Y >}}
+{{< youtube 6CnP8ghhZPQ >}}
 
 [^1]: 會用全形波浪號 ～ 是因為我對我的矯正醫師（目測）年齡的人的刻板印象就是他們的訊息結尾很愛用全形波浪號。只是我的刻板印象而已，不要想太多。
