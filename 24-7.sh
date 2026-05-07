@@ -1,0 +1,94 @@
+#!/bin/bash
+
+set -e
+
+# 顏色定義
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+BLUE='\033[0;34m'
+NC='\033[0m'
+
+TEMPLATE_FILE="./templates/.weekly.md"
+WEEKLY_DIR="./content/weekly"
+
+log_info()    { echo -e "${BLUE}[INFO]${NC} $1"; }
+log_success() { echo -e "${GREEN}[SUCCESS]${NC} $1"; }
+log_error()   { echo -e "${RED}[ERROR]${NC} $1"; }
+
+# 找出下一個數字
+get_next_number() {
+    local max=0
+    if [ -d "$WEEKLY_DIR" ]; then
+        for dir in "$WEEKLY_DIR"/*/; do
+            local name
+            name=$(basename "$dir")
+            if [[ "$name" =~ ^[0-9]+$ ]] && [ "$name" -gt "$max" ]; then
+                max="$name"
+            fi
+        done
+    fi
+    echo $((max + 1))
+}
+
+# 計算下一個禮拜一的 16:00 UTC+8
+get_next_monday() {
+    local dow
+    dow=$(date +%u)  # 1=Mon ... 7=Sun
+    local days_until_monday=$(( (8 - dow) % 7 ))
+    [ "$days_until_monday" -eq 0 ] && days_until_monday=7
+    date -d "+${days_until_monday} days 16:00" '+%Y-%m-%dT16:00:00+08:00' 2>/dev/null \
+        || date -v "+${days_until_monday}d" -j -f "%H:%M" "16:00" '+%Y-%m-%dT16:00:00+08:00'
+}
+
+main() {
+    echo -e "${GREEN}"
+    echo "╔══════════════════════════════════════╗"
+    echo "║        Weekly 建立工具               ║"
+    echo "╚══════════════════════════════════════╝"
+    echo -e "${NC}"
+
+    # 檢查模版
+    if [ ! -f "$TEMPLATE_FILE" ]; then
+        log_error "找不到模版檔案: $TEMPLATE_FILE"
+        exit 1
+    fi
+
+    local vol
+    vol=$(get_next_number)
+
+    local folder_path="${WEEKLY_DIR}/${vol}"
+    local index_path="${folder_path}/index.md"
+
+    # 確認資料夾不存在
+    if [ -d "$folder_path" ]; then
+        log_error "資料夾已存在: $folder_path"
+        exit 1
+    fi
+
+    local title="24/7 Vol.${vol}"
+    local publish_date
+    publish_date=$(get_next_monday)
+
+    log_info "Vol: ${vol}"
+    log_info "標題: ${title}"
+    log_info "發布時間: ${publish_date}"
+
+    # 建立目錄結構
+    mkdir -p "${folder_path}/images"
+
+    # 處理模版
+    local content
+    content=$(cat "$TEMPLATE_FILE")
+    content=$(echo "$content" | sed "s|{{TITLE}}|\"${title}\"|g")
+    content=$(echo "$content" | sed "s|{{DATE}}|${publish_date}|g")
+
+    echo "$content" > "$index_path"
+
+    log_success "已建立: ${folder_path}/"
+    log_success "已建立: ${folder_path}/images/"
+    log_success "已建立: ${index_path}"
+}
+
+trap 'log_error "執行過程中發生錯誤"' ERR
+
+main "$@"

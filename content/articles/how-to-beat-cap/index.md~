@@ -3,7 +3,7 @@ title: "如何打敗會考？"
 date: 2025-08-27T11:47:12+08:00 # 撰寫時間
 publishDate: 2025-08-27T13:00:00+08:00  # 預約之後發布
 #lastmod: 2025-06-30 # 最後修改時間
-draft: true
+draft: false
 tags: ["📑學業"]
 
 # 文章設定
