@@ -16,7 +16,7 @@ NC='\033[0m' # No Color
 
 # 配置變數
 TEMPLATE_DIR="templates"          # 模板目錄
-POSTS_DIR="./content/posts"         # 文章目錄
+POSTS_DIR="./content/notes"         # 文章目錄
 CONFIG_FILE=".writing-config"     # 配置文件
 
 # 預設標籤（你可以修改這個列表）
@@ -28,6 +28,9 @@ AVAILABLE_TAGS=(
     "🏫教育"
     "📑學業" "幼稚" 
     "🍲飲食"
+    "歷史" "經濟學" "社會學" "數學" 
+    "物理" "化學" "地球科學"
+    "文學" "" 
 )
 
 # 函數：輸出彩色訊息
