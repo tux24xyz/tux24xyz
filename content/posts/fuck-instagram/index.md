@@ -26,5 +26,5 @@ code: true        # 是否有程式碼
 [^1]: 不，我不會讓讀者知道這兩個帳號（雖然說在 IG 上搜尋一下就能找到了），真的好奇的話社網都會同步內容。
 [^2]: 後來知道有 [WinUtil](https://github.com/christitustech/Winutil) 這種方便的工具，但我知道的時候已經全面轉向 Linux 了，有沒有人可以做一個 InstaUtil？[^3]
 [^3]: 不太可能啦，目前我想不到任何技術途徑能做到這件事。
-[^4]: <span style="color: #ff0000;>「現在您在其他 Meta 平台上看不到根據 Instagram 活動產生資訊以個人化的廣告」</span>這種感覺。
+[^4]: {{<setColor color="red">}}「現在您在其他 Meta 平台上看不到根據 Instagram 活動產生資訊以個人化的廣告」{{</setColor>}}這種感覺。
 [^6]: 如果要比哪個點最荒謬我覺得是這個，不過其他的也不輸啦（這種比較本身也真荒謬）。
