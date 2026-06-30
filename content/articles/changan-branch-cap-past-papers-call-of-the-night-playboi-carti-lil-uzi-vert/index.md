@@ -12,6 +12,9 @@ math: false       # 是否啟用數學公式
 code: true        # 是否有程式碼
 ---
 
+
+> 這是我的「[BlogBlog 同樂會 - 2026 年 6 月](https://blogblog.club/party/)」的投稿文章。本月主題是「[音樂與記憶](https://www.yozblog.com/posts/music-and-memories)」，由 [柚子](https://www.yozblog.com/) 主持。如果你有自己的部落格，歡迎一起來參加！
+
 這個故事以前在[「Whole Lotta Red」](https://tux24.xyz/articles/whole-lotta-red/)中大概提過。
 
 我在會考前幾個月每個週末都到新北市立圖書館長安分館刷考古題，（本來寫了理由但發現這樣會洩漏一些重要的個人隱私，所以拿掉了）。
