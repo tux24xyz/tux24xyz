@@ -3,7 +3,7 @@ title: "長安分館、會考考古題、徹夜之歌、Playboi Carti、Lil Uzi 
 date: 2026-06-30T18:54:08+08:00 # 撰寫時間
 publishDate: 2026-06-30T18:54:08+08:00  # 預約之後發布
 #lastmod: 2025-06-30 # 最後修改時間
-draft: true
+draft: false
 tags: ["🎵音樂", "🐧我的事", "🛟生活", "4,10", "🎨美術", "💦動畫"]
 
 # 文章設定
