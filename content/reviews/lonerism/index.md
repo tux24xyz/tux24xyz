@@ -6,7 +6,7 @@ publishDate: 2026-04-24T20:10:18+08:00  # 預約之後發布
 draft: false
 genres: ["Psychedelic Rock", "Neo-psychedelia"]
 artist: "Tame Impala"
-score: 9.5
+score: 10
 intro_quote: "Nothing that has happened so far has been anything we could control"
 type: "reviews"
 released: 2012

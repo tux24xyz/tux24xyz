@@ -7,7 +7,7 @@ draft: false
 genres: ["House", "Dance-pop"]
 artist: "Tame Impala"
 score: 9
-intro_quote: "You're a cenophile, I watch Family Guy"
+intro_quote: "如果硬要說有什麼退步了，可能是 Obsolete 的 Bass Solo，但還是很好聽"
 type: "reviews"
 released: 2025
 
