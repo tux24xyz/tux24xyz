@@ -14,8 +14,6 @@ code: true        # 是否有程式碼
 
 _最後更新：2026-03-31_
 
-很抱歉拖了這麼久，我的 `/links` 終於更新了。
-
 以下連結的順序沒有特別的依據，因為我想到什麼寫什麼。
 
 {{< notice warning >}}好像還有一種叫做「友站連結」或是「友鏈」的頁面，需要取得對方的同意才能放上連結。這裡不是「友鏈」，而是一個 `/*roll` 的集合體，所以我不會一一取得以下個人網站擁有者的同意再放上來。至於每個連結附上的說明，當然，都是我自己寫的，不見得精確或是受網站擁有者喜歡；如果你不喜歡或是希望自己的網站連結不要出現在這裡的話，可以寫信給我，我會更新這個頁面。{{< /notice >}}
@@ -24,19 +22,20 @@ _最後更新：2026-03-31_
 
 # 個人網站（中文）
 
-* [Wiwi.Blog](https://wiwi.blog)：我覺得不用介紹了🤣
-* [Ivon 的部落格](https://ivonblog.com)：有很多實用的自由軟體教學，我最早開始追蹤的中文個人網站之一。
-* [范剛哲](https://fgzblog.com)：以前從[好連點我](https://nicelink.me)過去的，不知道 「wiwi 觀眾」和「中文圈有在經營個人 Blog 的人」重疊率是多少
-* [小品大大的網站](https://blusewill.us.to/zh-tw)：也是從好連點我過去的，Blog 更新頻率不太高，我去年初剛開始架站的時候有寫信給他、但是到現在都杳無音訊😢
-* [喵's StackHarbor](https://alynx.one)：_Whisper to the World_ 我前年在研究如何用 linux 做音樂的時候看到了他的[這篇文章](https://sh.alynx.one/posts/Run-PulseAudio-on-Top-of-JACK/)，幫了我很大的忙。這個 Blog 同時有讀起來很輕鬆的生活分享文和很硬的技術文
-* [JN 的部落格](https://blog.giveanornot.com)：雲端工程師，偽娘。是我很喜歡的自省 + 生活分享 + 一點點技術內容（有點像這裡？）部落格。
-* [雷歐 Revol.C 的部落格](https://revolc.blog/)：前端工程師，音樂人，基督徒。Blog 的文筆對我來說有一種親切感。
-* [小麥的第二世界](https://blog2.worldofwheat.cc/)：資工系大學生，資訊能力看起來很強的樣子，有技術文也有自省文和生活分享。
-* [Jaron Writes.](https://www.jaron.tw/)：影像創作者王則倫的個人部落格，只比我早出生不到五年但是有比我高出許多的工作成就真的很厲害😵‍💫。他的文筆很好，文章好看，有關於自省和生活分享的主題是我的最愛。
-* [我的部落格](https://e89295.com/)：我喜歡他的文筆和文章內容，但還是不習慣直書的網頁。
-* [Cytrogen](https://cytrogen.icu/)：首頁好酷！文章的思考深度遠超於我，雖然他說他的中文程度不好，但其實讓我自慚形穢[^2]。
-* [陳建中｜Tân Kiàn-tiong](https://kiantiong.com/)：文章大部分內容和台語字型和字典有關；當然，和上面所有人一樣是[「自由」](https://tux24.xyz/articles/freedom-day)這邊的人[^1]
-[^1]: 或者說是[真．宅男](https://wiwi.blog/docs/tech/fake-vs-real-tech-nerd)
+* [Wiwi.Blog](https://wiwi.blog)：我覺得不用介紹了
+* [Ivon 的部落格](https://ivonblog.com)：有很多實用的自由軟體教學，我最早開始追蹤的中文個人網站之一
+* [范剛哲](https://fgzblog.com)：以前從[好連點我](https://nicelink.me)過去的，不知道 「Wiwi 觀眾」和「中文圈有在經營個人 Blog 的人」重疊率是多少（2026-08-19 更新：我猜 >60%。）
+* [小品大大的網站](https://blusewill.us.to/zh-tw)：也是從好連點我過去的，Blog 更新頻率不太高，我前年初剛開始架站的時候有寫信給他、但是到現在都杳無音訊😢
+* [喵's StackHarbor](https://alynx.one)：_Whisper to the World_ 我大前年在研究如何用 linux 做音樂的時候看到了他的[這篇文章](https://sh.alynx.one/posts/Run-PulseAudio-on-Top-of-JACK/)，幫了我很大的忙。這個 Blog 同時有讀起來很輕鬆的生活分享文和很硬的技術文
+* [JN 的部落格](https://blog.giveanornot.com)：雲端工程師，偽娘。是我很喜歡的自省 + 生活分享 + 一點點技術內容（有點像這裡？）部落格
+* [雷歐 Revol.C 的部落格](https://revolc.blog/)：前端工程師，音樂人，基督徒。Blog 的文筆對我來說有一種親切感
+* [小麥的第二世界](https://blog2.worldofwheat.cc/)：資工系大學生，資訊能力看起來很強的樣子，有技術文也有自省文和生活分享
+* [Jaron Writes.](https://www.jaron.tw/)：影像創作者王則倫的個人部落格，只比我早出生不到五年但是有比我高出許多的工作成就真的很厲害😵‍💫。他的文筆很好，文章好看，有關於自省和生活分享的主題是我的最愛
+* [我的部落格](https://e89295.com/)：我喜歡他的文筆和文章內容，但還是不習慣直書的網頁
+* [Cytrogen](https://cytrogen.icu/)：首頁好酷！文章的思考深度遠超於我，雖然他說他的中文程度不好，但其實讓我自慚形穢[^2]
+* [陳建中｜Tân Kiàn-tiong](https://kiantiong.com/)：文章大部分內容和台語字型和字典有關
+* [It’s小白的部落格](https://itsxiaobai.codeberg.page/pages/)：和我通信過好幾次的高中生，我們的經驗好像有不少可以互相借鑑的地方，我每天都會注意他有沒有更新
+* [xuyzni:3](https://xuyzni.bearblog.dev/)：從社團認識的朋友，能在線下推坑到別人開始寫部落格我很開心！
 [^2]: 我本來寫「自慚形『愧』」，還好有查字典
 
 # 個人網站（英文）
@@ -55,6 +54,10 @@ _最後更新：2026-03-31_
 * [HN Games](https://hackernews.games/)：有人把 Hacker News 上所有的遊戲收集起來了
 * [Kagi Small Web](https://kagi.com/smallweb/)：可以在這裡找到很多英文的個人網站
 * [好連點我](https://nicelink.me)：Wiwi 架設的一個連結分享網站，已經關掉了😢但是當初那些 nicelinks 都有保留下來
+* [RateYourMusic.com](https://rateyourmusic.com)：一個我又愛又恨的樂評網站，註冊帳號之後就可以在上面對音樂評分，很容易被評分影響第一印象而且網站本身的評分傾向也很難忽略，最好的用處是用來快速了解音樂的背景資料（它的資料庫品質和規模都很完善），比直接上網搜尋快很多
+* [WhoSampled](https://www.whosampled.com/)：如果想查取樣的出處，用它就對了。網站上的[「六度分離」](https://www.whosampled.com/six-degrees/)遊戲也很好玩
+* [IndiePing](https://indieping.giveanornot.com/)：JN 架的超實用網站，只是透過 RSS Feed 就能得知網站之間互連的情況。
+
 
 # 不分類有趣網站（這清單恐怕只會越來越長）
 
