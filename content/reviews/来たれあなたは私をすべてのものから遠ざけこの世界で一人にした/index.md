@@ -6,7 +6,7 @@ publishDate: 2026-09-03T21:50:43+08:00  # 預約之後發布
 draft: false
 genres: ["Slushwave", "Ambient"]
 artist: "t e l e p a t h テレパシー能力者"
-score: 7.5
+score: 8
 intro_quote: ""
 type: "reviews"
 released: 2025

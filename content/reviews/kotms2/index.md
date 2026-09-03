@@ -6,7 +6,7 @@ publishDate: 2026-04-25T18:44:23+08:00  # 預約之後發布
 draft: false
 genres: ["Memphis Rap", "Hardcore Hip Hop"]
 artist: "Denzel Curry"
-score: 8.5
+score: 8
 intro_quote: "ULTRAGROUND shit"
 type: "reviews"
 released: 2024

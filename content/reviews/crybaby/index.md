@@ -6,7 +6,7 @@ publishDate: 2026-04-26T18:23:31+08:00  # 預約之後發布
 draft: false
 genres: ["Emo Rap", "Cloud Rap"]
 artist: "Lil Peep"
-score: 8.5
+score: 9
 intro_quote: "剛才重聽了一遍，覺得就算讀者現在不 Emo 也該給它一次機會。"
 type: "reviews"
 released: 2016

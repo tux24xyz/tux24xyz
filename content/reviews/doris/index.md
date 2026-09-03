@@ -6,7 +6,7 @@ publishDate: 2026-05-03T10:24:41+08:00  # 預約之後發布
 draft: false
 genres: ["Abstract Hip Hop", "Hardcore Hip Hop"]
 artist: "Earl Sweatshirt"
-score: 8
+score: 7.5
 intro_quote: "Something sinister to it, pendulum swinging slow. A degenerate moving through the city with criminals, stealth."
 type: "reviews"
 released: 2013
