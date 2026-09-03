@@ -6,7 +6,7 @@ publishDate: 2026-04-26T17:28:49+08:00  # 預約之後發布
 draft: false
 genres: ["Abstract Hip Hop"]
 artist: "Madvillain"
-score: 9.5
+score: 10
 intro_quote: "帥，太帥了。喜歡的歌詞太多不知道要放哪句。"
 type: "reviews"
 released: 2004
