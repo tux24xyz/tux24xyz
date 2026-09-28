@@ -1,0 +1,14 @@
+ ---
+title: "Pop 2"
+date: 2026-09-28T18:58:24+08:00 # 撰寫時間
+publishDate: 2026-09-28T18:58:24+08:00  # 預約之後發布
+#lastmod: 2025-06-30 # 最後修改時間
+draft: false
+genres: ["Bubblegum Bass", "Hyperpop", "Electropop"]
+artist: "Charli xcx"
+score: 4.0
+intro_quote: "封面很漂亮，我被騙進來了，但我覺得不好聽，很不習慣"
+type: "reviews"
+released: 2017
+
+---

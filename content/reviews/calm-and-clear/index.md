@@ -1,0 +1,14 @@
+ ---
+title: "Calm and Clear"
+date: 2026-09-28T19:38:36+08:00 # 撰寫時間
+publishDate: 2026-09-28T19:38:36+08:00  # 預約之後發布
+#lastmod: 2025-06-30 # 最後修改時間
+draft: false
+genres: ["Math Rock"]
+artist: "Via Luna"
+score: 8.0
+intro_quote: ""
+type: "reviews"
+released: 2014
+
+---
