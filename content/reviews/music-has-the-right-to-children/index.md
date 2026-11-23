@@ -6,7 +6,7 @@ publishDate: 2026-09-28T19:01:45+08:00  # 預約之後發布
 draft: false
 genres: ["IDM", "Downtempo", "Hauntology"]
 artist: "Boards of Canada"
-score: 8.0
+score: 8.5
 intro_quote: "正確聽法：在沒事的下午、把窗簾拉到只透一點光進來、戴上耳機、裹著被子、躺在床上、邊聽邊做夢"
 type: "reviews"
 released: 1998

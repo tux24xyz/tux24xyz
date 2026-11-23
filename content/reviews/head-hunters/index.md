@@ -6,7 +6,7 @@ publishDate: 2026-09-28T19:06:11+08:00  # 預約之後發布
 draft: false
 genres: ["Jazz-Funk", "Jazz Fusion"]
 artist: "Herbie Hancock"
-score: 8.0
+score: 9.5
 intro_quote: ""
 type: "reviews"
 released: 1973

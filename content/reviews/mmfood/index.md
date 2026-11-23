@@ -6,7 +6,7 @@ publishDate: 2026-04-26T17:37:31+08:00  # 預約之後發布
 draft: false
 genres: ["Abstract Hip Hop"]
 artist: "MF DOOM"
-score: 8.5
+score: 9
 intro_quote: "好吃又好聽的一張專輯。"
 type: "reviews"
 released: 2004

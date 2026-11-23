@@ -6,7 +6,7 @@ publishDate: 2026-09-03T21:38:07+08:00  # 預約之後發布
 draft: false
 genres: ["Shoegaze", "Noise Pop"]
 artist: "my bloody valentine"
-score: 9
+score: 10
 intro_quote: ""
 type: "reviews"
 released: 1991

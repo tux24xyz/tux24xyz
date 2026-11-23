@@ -6,7 +6,7 @@ publishDate: 2026-08-13T20:45:18+08:00  # 預約之後發布
 draft: false
 genres: ["Indie Rock", "Post-Rock", "Post-Hardcore"]
 artist: "触发器Trigger"
-score: 9
+score: 9.5
 intro_quote: ""
 type: "reviews"
 released: 2026

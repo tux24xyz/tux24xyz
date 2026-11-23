@@ -6,7 +6,7 @@ publishDate: 2026-08-13T21:01:55+08:00  # 預約之後發布
 draft: false
 genres: ["Math Rock"]
 artist: "Covet"
-score: 8
+score: 9.5
 intro_quote: ""
 type: "reviews"
 released: 2018

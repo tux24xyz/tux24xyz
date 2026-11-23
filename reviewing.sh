@@ -64,12 +64,12 @@ get_album_info() {
     log_info "步驟 2: 輸入樂評資訊"
     
     while true; do
-        log_prompt "請輸入歌手名稱 (Artist):"
+        log_prompt "請輸入音樂家名稱 (Artist):"
         read -r ALBUM_ARTIST
         log_prompt "請輸入專輯名稱 (Album Title):"
         read -r ARTICLE_TITLE
         if [ -n "$ALBUM_ARTIST" ] && [ -n "$ARTICLE_TITLE" ]; then break; fi
-        log_error "歌手與專輯名稱均不能為空"
+        log_error "音樂家與專輯名稱均不能為空"
     done
 
     log_prompt "請輸入評分 (0.0 - 10.0):"

@@ -6,7 +6,7 @@ publishDate: 2026-09-28T19:38:36+08:00  # 預約之後發布
 draft: false
 genres: ["Math Rock"]
 artist: "Via Luna"
-score: 8.0
+score: 8.5
 intro_quote: ""
 type: "reviews"
 released: 2014

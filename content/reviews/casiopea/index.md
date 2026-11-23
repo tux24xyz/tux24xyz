@@ -6,7 +6,7 @@ publishDate: 2026-08-13T20:36:27+08:00  # 預約之後發布
 draft: false
 genres: ["Jazz Fusion"]
 artist: "CASIOPEA"
-score: 9.5
+score: 10
 intro_quote: "Thrills, speed, super technique. 我到目前為止最愛的 Jazz Fusion 專輯。"
 type: "reviews"
 released: 1979

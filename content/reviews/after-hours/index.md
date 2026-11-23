@@ -6,7 +6,7 @@ publishDate: 2026-09-03T21:20:29+08:00  # 預約之後發布
 draft: false
 genres: ["Alternative R&B", "Synth Pop"]
 artist: "The Weeknd"
-score: 9.0
+score: 9.5
 intro_quote: ""
 type: "reviews"
 released: 2020
