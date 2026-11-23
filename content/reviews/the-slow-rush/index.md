@@ -6,7 +6,7 @@ publishDate: 2026-04-26T14:20:30+08:00  # 預約之後發布
 draft: false
 genres: ["Psychedelic Pop", "Synth Pop", "Neo-psychedelia"]
 artist: "Tame Impala"
-score: 9
+score: 9.5
 intro_quote: "Ah, we'll see"
 type: "reviews"
 released: 2020
